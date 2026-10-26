@@ -16,7 +16,7 @@ linkedin: "https://www.linkedin.com/in/bpiotrowski/"
 
 # Newsletter: your Buttondown username (buttondown.com/USERNAME).
 # Leave empty to show a "follow on LinkedIn" link instead of the form.
-buttondown: ""
+buttondown: "theofferletter"
 
 # Podcast. Episodes are pulled from this feed on every build and once a day.
 podcast:
