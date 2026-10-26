@@ -194,6 +194,8 @@ a:hover { color: var(--ink-deep); text-decoration-thickness: 2px; }
 .listen { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
 .listen a { display: inline-block; font-size: 14px; font-weight: 600; text-decoration: none; padding: 8px 14px; border: 1px solid var(--hairline); border-radius: 3px; }
 .listen a:hover { border-color: var(--ink); background: var(--wash); }
+.listen-home { margin: -6px 0 8px; }
+.listen-home .listen a { padding: 6px 11px; font-size: 13px; }
 
 .episode { padding: 22px 0 26px; border-top: 1px solid var(--hairline); }
 .episode-meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 6px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }

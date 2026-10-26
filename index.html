@@ -44,6 +44,7 @@ description: Insights and real-world strategies in talent acquisition for recrui
   <section aria-labelledby="pod-title">
     <h2 class="section-title" id="pod-title">Candidate Spotlight</h2>
     <p class="section-lede">Real candidate stories, the challenges of modern recruiting, and what helps people stand out.</p>
+    <div class="listen-home">{% include listen-links.html %}</div>
     {% for ep in site.data.podcast.episodes limit:2 %}
       {% include episode-row.html %}
     {% endfor %}

@@ -1,6 +1,10 @@
-<ul class="listen">
-  {% if site.podcast.apple != "" %}<li><a href="{{ site.podcast.apple }}">Apple Podcasts</a></li>{% endif %}
-  {% if site.podcast.spotify != "" %}<li><a href="{{ site.podcast.spotify }}">Spotify</a></li>{% endif %}
-  {% if site.podcast.youtube != "" %}<li><a href="{{ site.podcast.youtube }}">YouTube</a></li>{% endif %}
-  <li><a href="{{ site.podcast.feed }}">RSS feed</a></li>
+{%- assign p = site.podcast -%}
+<ul class="listen" aria-label="Listen on">
+  {% if p.apple and p.apple != "" %}<li><a href="{{ p.apple }}">Apple Podcasts</a></li>{% endif %}
+  {% if p.spotify and p.spotify != "" %}<li><a href="{{ p.spotify }}">Spotify</a></li>{% endif %}
+  {% if p.youtube and p.youtube != "" %}<li><a href="{{ p.youtube }}">YouTube</a></li>{% endif %}
+  {% if p.amazon and p.amazon != "" %}<li><a href="{{ p.amazon }}">Amazon Music</a></li>{% endif %}
+  {% if p.iheart and p.iheart != "" %}<li><a href="{{ p.iheart }}">iHeartRadio</a></li>{% endif %}
+  {% if p.deezer and p.deezer != "" %}<li><a href="{{ p.deezer }}">Deezer</a></li>{% endif %}
+  <li><a href="{{ p.feed }}">RSS feed</a></li>
 </ul>

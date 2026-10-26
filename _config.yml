@@ -23,9 +23,12 @@ podcast:
   name: "The Offer Letter – Candidate Spotlight"
   feed: "https://api.riverside.fm/hosting/T6mUrd7z.rss"
   # Paste your show links here when you have them; empty ones are hidden.
-  apple: ""
-  spotify: ""
-  youtube: ""
+  apple: "https://podcasts.apple.com/us/podcast/the-offer-letter-candidate-spotlight/id1839056364"
+  spotify: "https://open.spotify.com/show/66U0LNhDAUrliBogaclGsx"
+  youtube: "https://www.youtube.com/@TheOfferLetter-CandidateSpotli"
+  amazon: "https://music.amazon.com/podcasts/5387a523-9c0b-4c70-a0b4-6d93f886461d"
+  iheart: "https://www.iheart.com/podcast/1333-the-offer-letter-candidat-293828314/"
+  deezer: "https://www.deezer.com/us/show/1002583142"
   guest_email: "brian@brianpiotrowski.com"
 
 # ---------------------------------------------------------------
