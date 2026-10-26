@@ -1,0 +1,14 @@
+{%- comment -%} expects: ep (from site.data.podcast.episodes) {%- endcomment -%}
+<article class="episode">
+  <p class="episode-meta">
+    {% if ep.number != "" %}<span>Episode {{ ep.number }}</span>{% endif %}
+    <time datetime="{{ ep.date }}">{{ ep.date | date: "%B %-d, %Y" }}</time>
+    {% if ep.duration != "" %}<span>{{ ep.duration }}</span>{% endif %}
+  </p>
+  <h3 class="episode-title"><a href="{{ ep.url | relative_url }}">{{ ep.topic }}</a></h3>
+  {% if ep.guest != "" %}<p class="episode-guest">with {{ ep.guest }}</p>{% endif %}
+  <p class="episode-summary">{{ ep.summary }}</p>
+  <audio controls preload="none" src="{{ ep.audio }}">
+    <a href="{{ ep.audio }}">Download the episode</a>
+  </audio>
+</article>

@@ -1,0 +1,54 @@
+# Builds and publishes the site to GitHub Pages.
+# Runs on every change, once a day (to pick up new podcast episodes),
+# after the GoDaddy import finishes, and on demand from the Actions tab.
+name: Build and publish site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 11 * * *"   # daily, ~6am Central
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Import blog from GoDaddy"]
+    types: [completed]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Pull podcast episodes from Riverside
+        run: python3 scripts/fetch_podcast.py
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

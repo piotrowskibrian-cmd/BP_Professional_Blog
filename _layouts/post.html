@@ -1,0 +1,44 @@
+---
+layout: default
+body_class: desk
+---
+<article class="sheet letter">
+  <header class="letter-head">
+    <p class="dateline"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+    <h1 class="letter-title">{{ page.title }}</h1>
+    <p class="letter-meta">{{ content | number_of_words | divided_by: 220 | plus: 1 }} min read</p>
+  </header>
+  {% if page.image %}
+  <figure class="letter-hero">
+    <img src="{{ page.image | relative_url }}" alt="" loading="eager">
+  </figure>
+  {% endif %}
+  <div class="prose">
+    {{ content }}
+  </div>
+  <footer class="letter-sign">
+    <p class="signature">Brian</p>
+    <p class="signature-name">Brian Piotrowski, Talent Acquisition</p>
+    <ul class="signature-links">
+      <li><a href="mailto:{{ site.email }}?subject={{ page.title | uri_escape }}">Reply by email</a></li>
+      <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}">Share on LinkedIn</a></li>
+    </ul>
+  </footer>
+</article>
+
+<nav class="wrap-narrow letter-nav" aria-label="More posts">
+  {% if page.previous %}
+  <a class="letter-nav-link prev" href="{{ page.previous.url | relative_url }}">
+    <span class="letter-nav-label">Older</span>
+    <span class="letter-nav-title">{{ page.previous.title }}</span>
+  </a>
+  {% else %}<span></span>{% endif %}
+  {% if page.next %}
+  <a class="letter-nav-link next" href="{{ page.next.url | relative_url }}">
+    <span class="letter-nav-label">Newer</span>
+    <span class="letter-nav-title">{{ page.next.title }}</span>
+  </a>
+  {% endif %}
+</nav>
+
+<div class="wrap-narrow">{% include signup.html %}</div>

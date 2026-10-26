@@ -1,0 +1,17 @@
+<section class="signup" aria-labelledby="signup-title">
+  <div class="signup-inner">
+    <h2 id="signup-title">Get the next letter by email</h2>
+    <p>New posts and Candidate Spotlight episodes, sent when they're published. No spam; unsubscribe anytime.</p>
+    {%- if site.buttondown != "" %}
+    <form class="signup-form" action="https://buttondown.com/api/emails/embed-subscribe/{{ site.buttondown }}" method="post" target="_blank">
+      <label for="bd-email">Email address</label>
+      <div class="signup-row">
+        <input type="email" name="email" id="bd-email" autocomplete="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </div>
+    </form>
+    {%- else %}
+    <p><a class="button" href="{{ site.linkedin }}">Follow Brian on LinkedIn</a></p>
+    {%- endif %}
+  </div>
+</section>

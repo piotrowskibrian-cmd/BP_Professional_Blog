@@ -1,0 +1,18 @@
+{%- assign path = page.url -%}
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Brian Piotrowski, home">
+      <span class="monogram" aria-hidden="true">BP</span>
+      <span class="brand-text">
+        <span class="brand-kicker">From the desk of</span>
+        <span class="brand-name">Brian Piotrowski</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="{{ '/blog/' | relative_url }}" {% if path contains '/blog' or page.layout == 'post' %}aria-current="page"{% endif %}>Blog</a>
+      <a href="{{ '/podcast/' | relative_url }}" {% if path contains '/podcast' %}aria-current="page"{% endif %}>Podcast</a>
+      <a href="{{ '/about/' | relative_url }}" {% if path contains '/about' %}aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+  <div class="wrap"><div class="rule" aria-hidden="true"><span></span></div></div>
+</header>

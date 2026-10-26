@@ -1,0 +1,50 @@
+---
+layout: default
+title: Blog
+description: Every post from The Offer Letter by Brian Piotrowski, from 2019 to today.
+---
+<section class="wrap-narrow archive">
+  <h1 class="page-title">Blog</h1>
+  <p class="section-lede">{{ site.posts.size }} posts on recruiting, hiring, and the job market since 2019.</p>
+  <label class="filter">
+    <span>Find a post</span>
+    <input type="search" id="post-filter" placeholder="Search by title, e.g. resume, AI, interview" autocomplete="off">
+  </label>
+  <p class="filter-empty" id="filter-empty" hidden>No posts match that search. Try a shorter word.</p>
+
+  {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for year in years %}
+  <section class="year" data-year>
+    <h2 class="year-label">{{ year.name }}</h2>
+    <ol class="post-index">
+      {% for post in year.items %}
+      <li data-title="{{ post.title | downcase | escape }} {{ post.description | downcase | escape }}">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+</section>
+<script>
+(function () {
+  var input = document.getElementById('post-filter');
+  var empty = document.getElementById('filter-empty');
+  if (!input) return;
+  input.addEventListener('input', function () {
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    document.querySelectorAll('[data-year]').forEach(function (sec) {
+      var any = false;
+      sec.querySelectorAll('li[data-title]').forEach(function (li) {
+        var hit = !q || li.getAttribute('data-title').indexOf(q) !== -1;
+        li.hidden = !hit;
+        if (hit) { any = true; shown++; }
+      });
+      sec.hidden = !any;
+    });
+    empty.hidden = shown !== 0;
+  });
+})();
+</script>

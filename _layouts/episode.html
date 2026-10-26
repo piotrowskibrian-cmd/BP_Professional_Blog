@@ -1,0 +1,29 @@
+---
+layout: default
+body_class: desk
+---
+<article class="sheet episode-page">
+  <p class="dateline">
+    <a href="{{ '/podcast/' | relative_url }}">{{ site.podcast.name }}</a>
+  </p>
+  <div class="episode-head">
+    <img class="episode-art" src="{{ page.image }}" alt="" width="160" height="160">
+    <div>
+      <p class="episode-meta">
+        {% if page.number != "" %}<span>Episode {{ page.number }}</span>{% endif %}
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        {% if page.duration != "" %}<span>{{ page.duration }}</span>{% endif %}
+      </p>
+      <h1 class="letter-title">{{ page.topic }}</h1>
+      {% if page.guest != "" %}<p class="episode-guest">with {{ page.guest }}</p>{% endif %}
+    </div>
+  </div>
+  <audio class="episode-player" controls preload="metadata" src="{{ page.audio }}">
+    <a href="{{ page.audio }}">Download the episode</a>
+  </audio>
+  {% include listen-links.html %}
+  <div class="prose episode-notes">
+    {{ content }}
+  </div>
+</article>
+<div class="wrap-narrow">{% include signup.html %}</div>

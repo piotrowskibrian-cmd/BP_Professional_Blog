@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------
+# Site settings for brianpiotrowski.com
+# Edit the values in this block. After you save, GitHub rebuilds the
+# site automatically in a couple of minutes.
+# ---------------------------------------------------------------
+title: The Offer Letter
+author: Brian Piotrowski
+tagline: Real-world talent acquisition, from the desk of Brian Piotrowski.
+description: >-
+  The Offer Letter by Brian Piotrowski: insights and real-world strategies in
+  talent acquisition for recruiters, hiring leaders, and job seekers.
+email: brian@brianpiotrowski.com
+url: "https://brianpiotrowski.com"
+baseurl: ""            # set automatically during the GitHub build
+linkedin: "https://www.linkedin.com/in/bpiotrowski/"
+
+# Newsletter: your Buttondown username (buttondown.com/USERNAME).
+# Leave empty to show a "follow on LinkedIn" link instead of the form.
+buttondown: ""
+
+# Podcast. Episodes are pulled from this feed on every build and once a day.
+podcast:
+  name: "The Offer Letter – Candidate Spotlight"
+  feed: "https://api.riverside.fm/hosting/T6mUrd7z.rss"
+  # Paste your show links here when you have them; empty ones are hidden.
+  apple: ""
+  spotify: ""
+  youtube: ""
+  guest_email: "brian@brianpiotrowski.com"
+
+# ---------------------------------------------------------------
+# You shouldn't need to change anything below this line.
+# ---------------------------------------------------------------
+timezone: America/Chicago
+lang: en_US
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+permalink: /f/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+feed:
+  path: feed.xml
+logo: /assets/images/offer-letter-logo.png
+social:
+  name: Brian Piotrowski
+  links:
+    - https://www.linkedin.com/in/bpiotrowski/
+collections:
+  episodes:
+    output: true
+    permalink: /podcast/:name/
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "", type: episodes }
+    values: { layout: episode }
+  - scope: { path: "" }
+    values: { layout: page }
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - tests
+  - vendor

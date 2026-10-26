@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>The Offer Letter - Candidate Spotlight</title>
+<description><![CDATA[<p>The Offer Letter – Candidate Spotlight gives job seekers a voice in today’s hiring market. Hosted by Talent Acquisition leader Brian Piotrowski, each episode shines a light on real candidate stories.</p>]]></description>
+<itunes:image href="https://example.com/show.jpg"/>
+<item>
+<title>Chemist. Submariner. Regulator. MBA. A Story of Reinvention | Roy Elliott | CS #24</title>
+<pubDate>Thu, 14 May 2026 14:00:00 GMT</pubDate>
+<enclosure url="https://example.com/24.mp3" type="audio/mpeg" length="1"/>
+<itunes:duration>01:24:55</itunes:duration>
+<description><![CDATA[<p>Roy Elliott’s career has been anything but linear.</p><p></p><p>We talk about:</p><ul><li>Growing up poor and discovering his academic potential</li><li>Leadership aboard nuclear submarines</li></ul>]]></description>
+</item>
+<item>
+<title>Legal Tech, Data, and Creative Problem Solving in the eDiscovery Industry | Slade Pickering | CS #23</title>
+<pubDate>Thu, 09 Apr 2026 14:00:00 GMT</pubDate>
+<enclosure url="https://example.com/23.mp3" type="audio/mpeg" length="1"/>
+<itunes:duration>2577</itunes:duration>
+<description><![CDATA[<p>In this episode I sit down with Slade Pickering to break down eDiscovery.</p>]]></description>
+</item>
+<item>
+<title>From Tier 1 to Running IT Integrations at Scale | William King | CS#22</title>
+<pubDate>Thu, 02 Apr 2026 14:00:00 GMT</pubDate>
+<enclosure url="https://example.com/22.mp3" type="audio/mpeg" length="1"/>
+<itunes:duration>00:52:21</itunes:duration>
+<description><![CDATA[<p>William King walks through his path from Tier 1 IT support into network operations.</p>]]></description>
+</item>
+</channel>
+</rss>

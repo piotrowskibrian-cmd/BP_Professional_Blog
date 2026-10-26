@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Tech’s Favorite New Buzzword for Layoffs: AI",
+    "slug": "tech%E2%80%99s-favorite-new-buzzword-for-layoffs-ai",
+    "date": "2025-07-16T15:00:00.000Z",
+    "featuredImage": "https://img1.wsimg.com/isteam/ip/x/hero.png",
+    "categories": [],
+    "content": "2024 and 2025 have been coated in tech layoffs and the list keeps growing.",
+    "fullContent": "{\"blocks\":[{\"key\":\"a\",\"text\":\" \",\"type\":\"atomic\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":0,\"length\":1,\"key\":0}],\"data\":{}},{\"key\":\"b\",\"text\":\"According to Layoffs.fyi, more than 95,000 tech jobs have been cut in 2025 alone.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":13,\"length\":11,\"key\":1}],\"data\":{}},{\"key\":\"c\",\"text\":\"1. Have Your Career Center Review Your Resume\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":45,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"c2\",\"text\":\"2. Plain numbered line *with* stars_and_underscores\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"d\",\"text\":\"Pro tip: start with companies you’re less interested in.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":8,\"style\":\"BOLD\"},{\"offset\":21,\"length\":9,\"style\":\"ITALIC\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"e\",\"text\":\"Bonus Tips\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":10,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"f\",\"text\":\"Walk the floor\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"g\",\"text\":\"Ask questions like:\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"h\",\"text\":\"“What skills help students stand out?”\",\"type\":\"blockquote\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"h2\",\"text\":\"“Second quote line.”\",\"type\":\"blockquote\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"i\",\"text\":\"Limited Growth Offerings: As HR tech companies mature.\",\"type\":\"ordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":24,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"j\",\"text\":\"AI and Automation: fast becoming the driving forces.\",\"type\":\"ordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":18,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"k\",\"text\":\" \",\"type\":\"atomic\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":0,\"length\":1,\"key\":2}],\"data\":{}},{\"key\":\"l\",\"text\":\"You’ve got this.\\n \",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"m\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{\"0\":{\"type\":\"IMAGE\",\"data\":{\"src\":\"//img1.wsimg.com/isteam/ip/x/hero.png\"}},\"1\":{\"type\":\"LINK\",\"data\":{\"href\":\"https://layoffs.fyi\",\"url\":\"https://layoffs.fyi/\"}},\"2\":{\"type\":\"IMAGE\",\"data\":{\"src\":\"//img1.wsimg.com/isteam/ip/x/second.png\",\"alt\":\"chart\"}}}}"
+  },
+  {
+    "title": "Welcome! 2020 Here we come! ",
+    "slug": "welcome-2020-here-we-come",
+    "date": "2019-12-30T15:00:00.000Z",
+    "featuredImage": "",
+    "categories": [],
+    "content": "Short intro...",
+    "fullContent": "{\"blocks\":[{\"key\":\"a\",\"text\":\"Welcome to The Offer Letter.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+  }
+]

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Podcast
+description: The Offer Letter – Candidate Spotlight, hosted by Brian Piotrowski. Real candidate stories from today's hiring market.
+---
+{%- assign show = site.data.podcast -%}
+<section class="wrap-narrow podcast">
+  <div class="show-head">
+    <img class="show-art" src="{{ show.image | default: '/assets/images/offer-letter-logo.png' }}" alt="" width="180" height="180">
+    <div>
+      <h1 class="page-title">{{ site.podcast.name }}</h1>
+      <p class="section-lede">{{ show.description | default: "Real candidate stories from today's hiring market." }}</p>
+      {% include listen-links.html %}
+    </div>
+  </div>
+
+  <h2 class="section-title">{{ show.episodes.size }} episodes</h2>
+  {% for ep in show.episodes %}
+    {% include episode-row.html %}
+  {% endfor %}
+
+  <aside class="guest-call">
+    <h2>Be a guest</h2>
+    <p>Candidate Spotlight is always looking for professionals who want to share their story beyond a resume. <a href="mailto:{{ site.podcast.guest_email }}?subject=Candidate%20Spotlight%20guest">Email Brian</a> with a few lines about your path.</p>
+  </aside>
+</section>
