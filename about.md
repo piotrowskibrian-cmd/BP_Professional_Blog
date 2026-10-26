@@ -1,15 +1,19 @@
 ---
 title: About Brian
 permalink: /about/
-description: Brian Piotrowski is a Talent Acquisition leader with over a decade of experience across corporate teams and search firms.
+description: Brian Piotrowski is a Talent Acquisition executive with 15+ years of experience building recruiting teams and modernizing the systems behind great hiring.
 ---
 
 <img class="portrait" src="{{ '/assets/images/brian.jpg' | relative_url }}" alt="Brian Piotrowski" width="480" height="600">
 
-Brian Piotrowski is a seasoned Talent Acquisition leader with over a decade of experience spanning corporate teams and search firms. His work crosses industries including Oil & Gas, AEC, Manufacturing, Environmental Services, IT, and Technology, giving him a uniquely broad and practical perspective on recruitment.
+Brian Piotrowski is a Talent Acquisition executive with more than 15 years of experience building high-performing recruiting teams and modernizing the systems, technology, and processes behind great hiring. He currently leads talent acquisition for a 2,100-employee North American architecture, engineering, and construction firm, and previously led a 17-person global TA organization making about 1,000 hires a year across North America, the Pacific, Saudi Arabia, and Latin America.
 
-Through *The Offer Letter*, Brian shares real-world insights and candid opinions designed to spark conversation, challenge conventional thinking, and support growth for recruiters, hiring leaders, and job seekers alike. On the podcast, *Candidate Spotlight*, he gives job seekers a voice and shares the stories behind their resumes.
+His career spans corporate teams and search firms, with hiring across AEC, Oil & Gas, Manufacturing, Environmental Services, IT, and Technology. He starts by learning the business, then builds what makes TA more effective, measurable, and scalable: business-aligned recruiting teams, recruiter KPIs and dashboards, structured interviewing, early-career programs, and ATS rollouts on Oracle Recruiting Cloud and iCIMS. He has also served on a corporate AI Governance Board, helping shape responsible automation and talent data strategy.
 
-Connect with him at [brian@brianpiotrowski.com](mailto:brian@brianpiotrowski.com) or on [LinkedIn](https://www.linkedin.com/in/bpiotrowski/).
+Through *The Offer Letter*, Brian shares real-world insights and candid opinions designed to spark conversation, challenge the "we've always done it that way" mindset, and support growth for recruiters, hiring leaders, and job seekers alike. On the podcast, *Candidate Spotlight*, he gives job seekers a voice and shares the stories behind their resumes.
+
+Brian is a graduate of Bradley University and is based in the Chicago area.
+
+**Get in touch:** [Email](mailto:brian@brianpiotrowski.com) or [LinkedIn](https://www.linkedin.com/in/bpiotrowski/)
 
 *All thoughts and opinions are his own.*
