@@ -1,14 +1,17 @@
-{%- comment -%} expects: ep (from site.data.podcast.episodes) {%- endcomment -%}
-<article class="episode">
-  <p class="episode-meta">
-    {% if ep.number != "" %}<span>Episode {{ ep.number }}</span>{% endif %}
-    <time datetime="{{ ep.date }}">{{ ep.date | date: "%B %-d, %Y" }}</time>
-    {% if ep.duration != "" %}<span>{{ ep.duration }}</span>{% endif %}
-  </p>
-  <h3 class="episode-title"><a href="{{ ep.url | relative_url }}">{{ ep.topic }}</a></h3>
-  {% if ep.guest != "" %}<p class="episode-guest">with {{ ep.guest }}</p>{% endif %}
-  <p class="episode-summary">{{ ep.summary }}</p>
-  <audio controls preload="none" src="{{ ep.audio }}">
-    <a href="{{ ep.audio }}">Download the episode</a>
-  </audio>
+{%- comment -%} Episode card. expects: ep (from site.data.podcast.episodes) {%- endcomment -%}
+<article class="ep-card">
+  <p class="ep-num" aria-hidden="true">{{ ep.number | default: "·" }}</p>
+  <div class="ep-body">
+    {% if ep.guest != "" %}<p class="ep-guest">{{ ep.guest }}</p>{% endif %}
+    <h3 class="ep-topic"><a href="{{ ep.url | relative_url }}">{{ ep.topic }}</a></h3>
+    <p class="ep-meta">
+      <time datetime="{{ ep.date }}">{{ ep.date | date: "%b %-d, %Y" }}</time>
+      {% if ep.duration != "" %}<span>{{ ep.duration }}</span>{% endif %}
+    </p>
+    <button class="play-btn" type="button"
+      data-src="{{ ep.audio }}" data-title="{{ ep.topic | escape }}" data-guest="{{ ep.guest | escape }}"
+      data-url="{{ ep.url | relative_url }}" aria-label="Play episode {{ ep.number }}{% if ep.guest != '' %} with {{ ep.guest | escape }}{% endif %}">
+      <span class="play-icon" aria-hidden="true"></span><span class="play-label">Play</span>
+    </button>
+  </div>
 </article>

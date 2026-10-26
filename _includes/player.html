@@ -1,0 +1,62 @@
+<div class="player" id="player" hidden>
+  <div class="wrap player-inner">
+    <button class="player-toggle" type="button" id="player-toggle" aria-label="Pause">
+      <span class="play-icon is-playing" aria-hidden="true"></span>
+    </button>
+    <div class="player-info">
+      <a class="player-title" id="player-title" href="#"></a>
+      <span class="player-guest" id="player-guest"></span>
+    </div>
+    <div class="player-seek">
+      <span class="player-time" id="player-cur">0:00</span>
+      <input type="range" id="player-range" min="0" max="1000" value="0" aria-label="Seek">
+      <span class="player-time" id="player-dur">0:00</span>
+    </div>
+    <button class="player-close" type="button" id="player-close" aria-label="Close player">×</button>
+  </div>
+  <audio id="player-audio" preload="none"></audio>
+</div>
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.play-btn');
+  if (!buttons.length) return;
+  var bar = document.getElementById('player'), audio = document.getElementById('player-audio'),
+      toggle = document.getElementById('player-toggle'), range = document.getElementById('player-range'),
+      cur = document.getElementById('player-cur'), dur = document.getElementById('player-dur'),
+      title = document.getElementById('player-title'), guest = document.getElementById('player-guest'),
+      closeBtn = document.getElementById('player-close'), active = null, seeking = false;
+  function fmt(s) { if (!isFinite(s)) return '0:00'; s = Math.floor(s);
+    var h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = ('0' + s % 60).slice(-2);
+    return h ? h + ':' + ('0' + m).slice(-2) + ':' + x : m + ':' + x; }
+  function sync() {
+    var playing = !audio.paused;
+    toggle.querySelector('.play-icon').classList.toggle('is-playing', playing);
+    toggle.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+    buttons.forEach(function (b) {
+      var on = b === active && playing;
+      b.classList.toggle('is-on', on);
+      b.querySelector('.play-icon').classList.toggle('is-playing', on);
+      var l = b.querySelector('.play-label'); if (l) l.textContent = on ? 'Pause' : (b.classList.contains('play-btn-lg') ? 'Play the episode' : 'Play');
+    });
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      if (active === b) { audio.paused ? audio.play() : audio.pause(); return; }
+      active = b; audio.src = b.dataset.src; audio.play();
+      title.textContent = b.dataset.title; title.href = b.dataset.url;
+      guest.textContent = b.dataset.guest ? 'with ' + b.dataset.guest : '';
+      bar.hidden = false; document.body.classList.add('has-player');
+    });
+  });
+  toggle.addEventListener('click', function () { audio.paused ? audio.play() : audio.pause(); });
+  closeBtn.addEventListener('click', function () { audio.pause(); bar.hidden = true; document.body.classList.remove('has-player'); active = null; sync(); });
+  audio.addEventListener('play', sync); audio.addEventListener('pause', sync); audio.addEventListener('ended', sync);
+  audio.addEventListener('loadedmetadata', function () { dur.textContent = fmt(audio.duration); });
+  audio.addEventListener('timeupdate', function () {
+    cur.textContent = fmt(audio.currentTime);
+    if (!seeking && audio.duration) range.value = Math.round(audio.currentTime / audio.duration * 1000);
+  });
+  range.addEventListener('input', function () { seeking = true; if (audio.duration) cur.textContent = fmt(range.value / 1000 * audio.duration); });
+  range.addEventListener('change', function () { if (audio.duration) audio.currentTime = range.value / 1000 * audio.duration; seeking = false; });
+})();
+</script>

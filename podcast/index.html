@@ -4,23 +4,55 @@ title: Podcast
 description: The Offer Letter – Candidate Spotlight, hosted by Brian Piotrowski. Real candidate stories from today's hiring market.
 ---
 {%- assign show = site.data.podcast -%}
-<section class="wrap-narrow podcast">
-  <div class="show-head">
-    <img class="show-art" src="{{ show.image | default: '/assets/images/offer-letter-logo.png' }}" alt="" width="180" height="180">
-    <div>
-      <h1 class="page-title">{{ site.podcast.name }}</h1>
-      <p class="section-lede">{{ show.description | default: "Real candidate stories from today's hiring market." }}</p>
-      {% include listen-links.html %}
+{%- assign latest = show.episodes.first -%}
+<section class="spotlight">
+  <div class="wrap spotlight-inner">
+    <div class="spotlight-art">
+      <img src="{{ show.image | default: '/assets/images/offer-letter-logo.png' }}" alt="The Offer Letter – Candidate Spotlight cover art" width="300" height="300">
+    </div>
+    <div class="spotlight-text">
+      <h1 class="spotlight-title">Candidate Spotlight</h1>
+      <p class="spotlight-lede">The job seeker gets the mic. Each episode, Brian sits down with one professional to talk through their path, the hiring market they're navigating, and what actually helps people stand out.</p>
+      <div class="listen-dark">{% include listen-links.html %}</div>
     </div>
   </div>
+</section>
 
-  <h2 class="section-title">{{ show.episodes.size }} episodes</h2>
-  {% for ep in show.episodes %}
-    {% include episode-row.html %}
-  {% endfor %}
+{% if latest %}
+<section class="wrap latest-ep" aria-labelledby="latest-ep-title">
+  <div class="latest-ep-card">
+    <div class="latest-ep-text">
+      <p class="latest-ep-label" id="latest-ep-title">Newest episode{% if latest.number != "" %}, no. {{ latest.number }}{% endif %}</p>
+      {% if latest.guest != "" %}<p class="latest-ep-guest">{{ latest.guest }}</p>{% endif %}
+      <h2 class="latest-ep-topic"><a href="{{ latest.url | relative_url }}">{{ latest.topic }}</a></h2>
+      <p class="latest-ep-summary">{{ latest.summary }}</p>
+      <p class="ep-meta">
+        <time datetime="{{ latest.date }}">{{ latest.date | date: "%B %-d, %Y" }}</time>
+        {% if latest.duration != "" %}<span>{{ latest.duration }}</span>{% endif %}
+      </p>
+      <button class="play-btn play-btn-lg" type="button"
+        data-src="{{ latest.audio }}" data-title="{{ latest.topic | escape }}" data-guest="{{ latest.guest | escape }}"
+        data-url="{{ latest.url | relative_url }}">
+        <span class="play-icon" aria-hidden="true"></span><span class="play-label">Play the episode</span>
+      </button>
+    </div>
+  </div>
+</section>
+{% endif %}
 
-  <aside class="guest-call">
-    <h2>Be a guest</h2>
-    <p>Candidate Spotlight is always looking for professionals who want to share their story beyond a resume. <a href="mailto:{{ site.podcast.guest_email }}?subject=Candidate%20Spotlight%20guest">Email Brian</a> with a few lines about your path.</p>
-  </aside>
+<section class="wrap episodes" aria-labelledby="all-eps">
+  <h2 class="section-title" id="all-eps">All {{ show.episodes.size }} episodes</h2>
+  <div class="ep-grid">
+    {% for ep in show.episodes offset:1 %}
+      {% include episode-row.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap guest-cta" aria-labelledby="guest-title">
+  <div class="guest-cta-inner">
+    <h2 id="guest-title">Have a story beyond your resume?</h2>
+    <p>Candidate Spotlight is always looking for professionals at any stage, whether you're between roles, changing careers, or somewhere unexpected. Send Brian a few lines about your path.</p>
+    <a class="button button-light" href="mailto:{{ site.podcast.guest_email }}?subject=Candidate%20Spotlight%20guest">Pitch yourself as a guest</a>
+  </div>
 </section>
