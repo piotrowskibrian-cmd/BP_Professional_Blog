@@ -1,0 +1,21 @@
+# "Start here" reading lists on the home page.
+# Each entry is a post's file name without the date and ".md"
+# (e.g. _posts/2025-10-29-the-recruiter-of-the-future.md -> the-recruiter-of-the-future).
+- reader: Recruiters
+  blurb: Sharpen how you work, from intake calls to AI.
+  posts:
+    - the-recruiter-of-the-future
+    - are-you-using-data-in-your-intake-calls
+    - modernizing-ta-through-curiosity-and-small-experiments
+- reader: Hiring leaders
+  blurb: Hire better, faster, and with fewer surprises.
+  posts:
+    - does-the-perfect-candidate-exist
+    - stop-interviewing-like-its-2015
+    - hiring-in-the-age-of-deepfakes-what-we-should-consider
+- reader: Job seekers
+  blurb: Get noticed, get the interview, land the offer.
+  posts:
+    - youve-got-the-interview-now-what
+    - how-to-optimize-your-linkedin-profile-to-get-noticed
+    - avoid-these-common-resume-mistakes

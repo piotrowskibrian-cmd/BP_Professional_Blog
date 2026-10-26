@@ -1,55 +1,103 @@
 ---
 layout: default
 title: The Offer Letter by Brian Piotrowski
-description: Insights and real-world strategies in talent acquisition for recruiters, hiring leaders, and job seekers.
+description: Real-world talent acquisition from Brian Piotrowski, for recruiters, hiring leaders, and job seekers. Blog and Candidate Spotlight podcast.
+body_class: home
 ---
-{%- assign lead = site.posts.first -%}
-<section class="wrap intro">
-  <div class="intro-text">
-    <h1 class="intro-title">The Offer Letter</h1>
-    <p class="intro-lede">Real-world strategies and candid opinions on talent acquisition, for recruiters, hiring leaders, and job seekers. Written by Brian Piotrowski, a Talent Acquisition executive with more than 15 years across corporate teams and search firms.</p>
-    <p class="intro-actions">
-      <a class="button" href="{{ '/blog/' | relative_url }}">Read the blog</a>
-      <a class="button button-quiet" href="{{ '/podcast/' | relative_url }}">Listen to the podcast</a>
-    </p>
+{%- assign show = site.data.podcast -%}
+{%- assign ep = show.episodes.first -%}
+{%- assign fallback_img = '/assets/images/offer-letter-logo.png' -%}
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <h1 class="hero-title">Hiring doesn't have to work the way it always has.</h1>
+      <p class="hero-lede">I'm Brian Piotrowski, a Talent Acquisition leader with 15+ years building recruiting teams. On <em>The Offer Letter</em> I write and talk about what's actually working in hiring, for recruiters, hiring leaders, and job seekers.</p>
+      <p class="hero-actions">
+        <a class="button" href="{{ '/blog/' | relative_url }}">Read the blog</a>
+        <a class="button button-quiet" href="{{ '/podcast/' | relative_url }}">Listen to the podcast</a>
+      </p>
+    </div>
+    <figure class="hero-photo">
+      <img src="{{ '/assets/images/brian.jpg' | relative_url }}" alt="Brian Piotrowski" width="480" height="600">
+    </figure>
   </div>
-  <img class="intro-logo" src="{{ '/assets/images/offer-letter-logo.png' | relative_url }}" alt="The Offer Letter logo" width="320" height="320">
 </section>
 
-{% if lead %}
-<section class="wrap latest" aria-labelledby="latest-title">
-  <a class="sheet sheet-link lead-letter" href="{{ lead.url | relative_url }}">
-    <p class="dateline"><span id="latest-title">Latest letter</span><time datetime="{{ lead.date | date_to_xmlschema }}">{{ lead.date | date: "%B %-d, %Y" }}</time></p>
-    <h2 class="lead-title">{{ lead.title }}</h2>
-    <p class="lead-excerpt">{{ lead.description | default: lead.excerpt | strip_html | truncate: 260 }}</p>
-    <span class="read-more">Read the letter</span>
-  </a>
+<section class="proof" aria-label="By the numbers">
+  <div class="wrap proof-inner">
+    <p><strong>15+</strong><span>years in talent acquisition</span></p>
+    <p><strong>~1,000</strong><span>hires a year led at global scale</span></p>
+    <p><strong>{{ site.posts.size }}</strong><span>posts since 2019</span></p>
+    <p><strong>{{ show.episodes.size | default: 25 }}</strong><span>Candidate Spotlight episodes</span></p>
+  </div>
+</section>
+
+<section class="wrap home-latest" aria-labelledby="latest-title">
+  <div class="home-head">
+    <h2 class="section-title" id="latest-title">Latest from the blog</h2>
+    <a class="text-link" href="{{ '/blog/' | relative_url }}">All {{ site.posts.size }} posts</a>
+  </div>
+  <div class="latest-grid">
+    {% for post in site.posts limit:3 %}
+    <a class="post-card{% if forloop.first %} post-card-lead{% endif %}" href="{{ post.url | relative_url }}">
+      <span class="post-card-img"><img src="{{ post.image | default: fallback_img | relative_url }}" alt="" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"></span>
+      <span class="post-card-body">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        <span class="post-card-title">{{ post.title }}</span>
+        {% if forloop.first %}<span class="post-card-excerpt">{{ post.description | strip_html | truncate: 180 }}</span>{% endif %}
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="start-here" aria-labelledby="start-title">
+  <div class="wrap">
+    <h2 class="section-title" id="start-title">Start here</h2>
+    <p class="section-lede">Three short reading lists, depending on which side of the offer letter you're on.</p>
+    <div class="paths">
+      {% for path in site.data.start_here %}
+      <div class="path">
+        <h3 class="path-title">{{ path.reader }}</h3>
+        <p class="path-blurb">{{ path.blurb }}</p>
+        <ul class="path-list">
+          {% for slug in path.posts %}
+          {% assign p = site.posts | where: "slug", slug | first %}
+          {% if p %}
+          <li>
+            <a href="{{ p.url | relative_url }}">
+              <img src="{{ p.image | default: fallback_img | relative_url }}" alt="" loading="lazy" width="72" height="72">
+              <span>{{ p.title }}</span>
+            </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if ep %}
+<section class="spotlight home-pod" aria-labelledby="pod-title">
+  <div class="wrap home-pod-inner">
+    <img class="home-pod-art" src="{{ show.image | default: fallback_img }}" alt="Candidate Spotlight cover art" width="220" height="220" loading="lazy">
+    <div>
+      <h2 class="home-pod-kicker" id="pod-title">Now on Candidate Spotlight{% if ep.number != "" %}, episode {{ ep.number }}{% endif %}</h2>
+      {% if ep.guest != "" %}<p class="home-pod-guest">{{ ep.guest }}</p>{% endif %}
+      <p class="home-pod-topic"><a href="{{ ep.url | relative_url }}">{{ ep.topic }}</a></p>
+      <div class="home-pod-actions">
+        <button class="play-btn play-btn-lg play-btn-light" type="button"
+          data-src="{{ ep.audio }}" data-title="{{ ep.topic | escape }}" data-guest="{{ ep.guest | escape }}" data-url="{{ ep.url | relative_url }}">
+          <span class="play-icon" aria-hidden="true"></span><span class="play-label">Play the episode</span>
+        </button>
+        <a class="text-link-light" href="{{ '/podcast/' | relative_url }}">All episodes</a>
+      </div>
+    </div>
+  </div>
 </section>
 {% endif %}
-
-<div class="wrap columns">
-  <section aria-labelledby="recent-title">
-    <h2 class="section-title" id="recent-title">Recent posts</h2>
-    <ol class="post-index">
-      {% for post in site.posts offset:1 limit:6 %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-      </li>
-      {% endfor %}
-    </ol>
-    <p><a class="text-link" href="{{ '/blog/' | relative_url }}">All {{ site.posts.size }} posts</a></p>
-  </section>
-
-  <section aria-labelledby="pod-title">
-    <h2 class="section-title" id="pod-title">Candidate Spotlight</h2>
-    <p class="section-lede">Real candidate stories, the challenges of modern recruiting, and what helps people stand out.</p>
-    <div class="listen-home">{% include listen-links.html %}</div>
-    {% for ep in site.data.podcast.episodes limit:2 %}
-      {% include episode-row.html %}
-    {% endfor %}
-    <p><a class="text-link" href="{{ '/podcast/' | relative_url }}">All episodes</a></p>
-  </section>
-</div>
 
 <div class="wrap-narrow">{% include signup.html %}</div>
