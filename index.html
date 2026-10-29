@@ -1,9 +1,28 @@
 ---
 layout: default
-title: The Offer Letter by Brian Piotrowski
-description: Real-world talent acquisition from Brian Piotrowski, for recruiters, hiring leaders, and job seekers. Blog and Candidate Spotlight podcast.
+title: Brian Piotrowski, Talent Acquisition Leader
+description: Brian Piotrowski is a Talent Acquisition leader with 15+ years building recruiting teams. He writes The Offer Letter and hosts the Candidate Spotlight podcast.
 body_class: home
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Brian Piotrowski",
+  "url": "{{ site.url }}/",
+  "image": "{{ site.url }}/assets/images/brian.jpg",
+  "jobTitle": "Talent Acquisition Leader",
+  "description": "Talent Acquisition leader with 15+ years building recruiting teams. Writer of The Offer Letter and host of the Candidate Spotlight podcast.",
+  "email": "mailto:{{ site.email }}",
+  "knowsAbout": ["Talent acquisition", "Recruiting", "Hiring", "Recruiting technology", "AI in hiring"],
+  "sameAs": [
+    "{{ site.linkedin }}"{% if site.podcast.apple != "" %},
+    "{{ site.podcast.apple }}"{% endif %}{% if site.podcast.spotify != "" %},
+    "{{ site.podcast.spotify }}"{% endif %}{% if site.podcast.youtube != "" %},
+    "{{ site.podcast.youtube }}"{% endif %}
+  ]
+}
+</script>
 {%- assign show = site.data.podcast -%}
 {%- assign ep = show.episodes.first -%}
 {%- assign fallback_img = '/assets/images/offer-letter-logo.png' -%}

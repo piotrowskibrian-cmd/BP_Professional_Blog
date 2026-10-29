@@ -1,5 +1,5 @@
 ---
-title: About Brian
+title: About Brian Piotrowski
 permalink: /about/
 description: Brian Piotrowski is a Talent Acquisition executive with 15+ years of experience building recruiting teams and modernizing the systems behind great hiring.
 ---

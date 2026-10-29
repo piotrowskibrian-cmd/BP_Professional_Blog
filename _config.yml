@@ -5,7 +5,7 @@
 # ---------------------------------------------------------------
 title: The Offer Letter
 author: Brian Piotrowski
-tagline: Real-world talent acquisition, from the desk of Brian Piotrowski.
+tagline: Real-world talent acquisition from Brian Piotrowski.
 description: >-
   The Offer Letter by Brian Piotrowski: insights and real-world strategies in
   talent acquisition for recruiters, hiring leaders, and job seekers.
@@ -53,6 +53,9 @@ social:
   name: Brian Piotrowski
   links:
     - https://www.linkedin.com/in/bpiotrowski/
+    - https://podcasts.apple.com/us/podcast/the-offer-letter-candidate-spotlight/id1839056364
+    - https://open.spotify.com/show/66U0LNhDAUrliBogaclGsx
+    - https://www.youtube.com/@TheOfferLetter-CandidateSpotli
 collections:
   episodes:
     output: true
