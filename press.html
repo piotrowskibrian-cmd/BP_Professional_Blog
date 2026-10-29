@@ -5,7 +5,7 @@ description: Bio, headshots, and podcast details for event organizers, podcast h
 ---
 <section class="wrap-narrow press">
   <h1 class="page-title">Press kit</h1>
-  <p class="section-lede">Everything you need to feature Brian on a panel, podcast, or article. Use anything on this page as is.</p>
+  <p class="section-lede">Bios and details for featuring Brian on a panel, podcast, or article. Use the bios as is.</p>
 
   <h2>Short bio</h2>
   <div class="bio-block" id="bio-short">
@@ -21,19 +21,8 @@ description: Bio, headshots, and podcast details for event organizers, podcast h
   </div>
   <button class="copy-btn" type="button" data-copy="bio-long">Copy full bio</button>
 
-  <h2>Photos</h2>
-  <div class="press-photos">
-    <figure>
-      <a href="{{ '/assets/images/brian-piotrowski-headshot-hires.jpg' | relative_url }}" download><img src="{{ '/assets/images/brian.jpg' | relative_url }}" alt="Brian Piotrowski headshot" loading="lazy"></a>
-      <figcaption><a href="{{ '/assets/images/brian-piotrowski-headshot-hires.jpg' | relative_url }}" download>Download headshot</a> (high resolution JPG)</figcaption>
-    </figure>
-    {% if site.data.podcast.image %}
-    <figure class="square">
-      <a href="{{ site.data.podcast.image }}"><img src="{{ site.data.podcast.image }}" alt="Candidate Spotlight podcast cover art" loading="lazy"></a>
-      <figcaption><a href="{{ site.data.podcast.image }}">Download podcast cover art</a></figcaption>
-    </figure>
-    {% endif %}
-  </div>
+  <h2>Photos and logos</h2>
+  <p>For a high-resolution headshot or podcast cover art, <a href="mailto:{{ site.email }}?subject=Headshot%20and%20logo%20request">email Brian</a> and he'll send them over.</p>
 
   <h2>Topics Brian talks about</h2>
   <ul class="press-topics">

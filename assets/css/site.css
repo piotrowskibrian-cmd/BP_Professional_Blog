@@ -413,14 +413,9 @@ body.home .signup { margin-top: 64px; }
 /* ---------- Press kit ---------- */
 .press { padding-bottom: 72px; }
 .press h2 { font-family: var(--serif); font-weight: 500; font-size: 1.9rem; margin: 48px 0 12px; }
-.press-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
-.press-photos figure { margin: 0; }
-.press-photos img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; border-radius: 3px; border: 1px solid var(--hairline); }
-.press-photos .square img { aspect-ratio: 1; object-position: 50% 50%; }
-.press-photos figcaption { font-size: 14px; color: var(--muted); margin-top: 8px; }
 .bio-block { background: var(--paper); border: 1px solid var(--hairline); border-left: 4px solid var(--ink); padding: 18px 22px; margin: 0 0 12px; }
 .bio-block p { margin: 0 0 .8em; } .bio-block p:last-child { margin: 0; }
 .copy-btn { font: 600 14px/1 var(--sans); color: var(--ink); background: transparent; border: 1.5px solid var(--ink); border-radius: 3px; padding: 8px 14px; cursor: pointer; }
 .copy-btn:hover { background: var(--ink); color: #fff; }
 .press-topics { padding-left: 1.2em; } .press-topics li { margin-bottom: 6px; }
-@media (max-width: 560px) { .press-photos { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { }
