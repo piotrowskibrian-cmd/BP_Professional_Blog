@@ -5,6 +5,7 @@ permalink: "/f/debunking-interview-fads/"
 description: "Not all trends and fads in recruitment should be used. This past week I saw an article in the Wall Street Journal about a new interview technique called Cluster Hiring. Recruitment and Talent Acquisitions is one of the o…"
 image: "/assets/images/blog/debunking-interview-fads/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/debunking-interview-fads"
+topics: [interviewing]
 ---
 
 Not all trends and fads in recruitment should be used. This past week I saw an article in the Wall Street Journal about a new interview technique called Cluster Hiring. Recruitment and Talent Acquisitions is one of the only professions, that loves to jump to the next trend with very little research or case studies. Trends that are specific to interviewing and candidate selection should be approached with caution. Anyone who is involved in hiring has come across these trends when involved in the recruitment process. In my professional career, hiring, (strangely enough) has always been the most difficult decision I have to make. The industry tries to make it easier with creating new strategies for candidate selection.

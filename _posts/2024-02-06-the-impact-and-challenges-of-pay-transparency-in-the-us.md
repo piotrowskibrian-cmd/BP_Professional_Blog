@@ -5,6 +5,7 @@ permalink: "/f/the-impact-and-challenges-of-pay-transparency-in-the-us/"
 description: "Pay Transparency is once again making headlines in the U.S. as the federal government considers implementing pay transparency laws for all federal contractors as early as October. The gender pay gap remains a complex iss…"
 image: "/assets/images/blog/the-impact-and-challenges-of-pay-transparency-in-the-us/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-impact-and-challenges-of-pay-transparency-in-the-us"
+topics: [market]
 ---
 
 Pay Transparency is once again making headlines in the U.S. as the federal government considers implementing pay transparency laws for all federal contractors as early as October. The gender pay gap remains a complex issue, rooted in workplace inequalities. Pay transparency has emerged as a promising strategy in the government's search for solutions. However, does it truly make a difference?

@@ -5,6 +5,7 @@ permalink: "/f/how-artificial-intelligence-can-help-candidates/"
 description: "Artificial Intelligence is rapidly changing the way we do things, and the job search process is no exception. With the increasing use of AI in the recruitment process, job seekers can now search for new positions in a mo…"
 image: "/assets/images/blog/how-artificial-intelligence-can-help-candidates/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/how-artificial-intelligence-can-help-candidates"
+topics: [ai, job-search]
 ---
 
 Artificial Intelligence is rapidly changing the way we do things, and the job search process is no exception. With the increasing use of AI in the recruitment process, job seekers can now search for new positions in a more efficient and effective way.

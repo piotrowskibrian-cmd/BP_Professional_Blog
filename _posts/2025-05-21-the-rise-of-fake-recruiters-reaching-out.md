@@ -5,6 +5,7 @@ permalink: "/f/the-rise-of-fake-recruiters-reaching-out/"
 description: "The other day, I got a message on LinkedIn from a recruiter and right away, something felt off. It was well-written but there were several red flags. I wanted to share the message and walk through what made me pause:"
 image: "/assets/images/blog/the-rise-of-fake-recruiters-reaching-out/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-rise-of-fake-recruiters-reaching-out"
+topics: [job-search]
 ---
 
 The other day, I got a message on LinkedIn from a recruiter and right away, something felt off. It was well-written but there were several red flags. I wanted to share the message and walk through what made me pause:

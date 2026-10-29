@@ -5,6 +5,7 @@ permalink: "/f/are-recruiters-in-sales-storytellers-or-good-listeners/"
 description: "For the sake of this, let’s assume we aren’t speaking about recruiters that have business development responsibilities. We want to speak about recruiters that are responsible for souring and filling requisitions or job o…"
 image: "/assets/images/blog/are-recruiters-in-sales-storytellers-or-good-listeners/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/are-recruiters-in-sales-storytellers-or-good-listeners"
+topics: [leadership]
 ---
 
 For the sake of this, let’s assume we aren’t speaking about recruiters that have business development responsibilities. We want to speak about recruiters that are responsible for souring and filling requisitions or job orders. Recruiters are responsible for finding possible candidates, talking to candidates about the job responsibility and their qualifications to make sure it's a fit for both parties. If a candidate is on the fence about a position or trying to convince a hiring manager to speak to a candidate can always be a challenge but what trait do you need? Sales, Storytelling or being a good listener?

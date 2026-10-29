@@ -5,6 +5,7 @@ permalink: "/f/how-to-optimize-your-linkedin-profile-to-get-noticed/"
 description: "If you're improving your LinkedIn profile, these my recommendations will help you stand out and attract attention. Getting you more messages, more views and more interest so you can be in the spotlight."
 image: "/assets/images/blog/how-to-optimize-your-linkedin-profile-to-get-noticed/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/how-to-optimize-your-linkedin-profile-to-get-noticed"
+topics: [job-search]
 ---
 
 If you're improving your LinkedIn profile, these my recommendations will help you stand out and attract attention. Getting you more messages, more views and more interest so you can be in the spotlight.

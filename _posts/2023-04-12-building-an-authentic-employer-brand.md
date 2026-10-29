@@ -5,6 +5,7 @@ permalink: "/f/building-an-authentic-employer-brand/"
 description: "In today's competitive job market, having a strong employer brand is more important than ever. Your employer brand is how your company is perceived by current and potential employees, and it plays a critical role in attr…"
 image: "/assets/images/blog/building-an-authentic-employer-brand/01.png"
 godaddy_url: "https://brianpiotrowski.com/f/building-an-authentic-employer-brand"
+topics: [leadership]
 ---
 
 In today's competitive job market, having a strong employer brand is more important than ever. Your employer brand is how your company is perceived by current and potential employees, and it plays a critical role in attracting and retaining top talent. But creating an authentic employer brand takes time and effort. As a TA Professional, I know all too well the importance of a strong employer brand. Here are some reasons why you should prioritize your employer brand and three low-cost things you can do to improve it.

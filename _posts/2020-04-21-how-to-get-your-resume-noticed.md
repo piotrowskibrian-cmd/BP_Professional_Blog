@@ -5,6 +5,7 @@ permalink: "/f/how-to-get-your-resume-noticed/"
 description: "Within days the economy went from full employment to a record-setting amount of people filing for unemployment benefits. In other words, we went from having more jobs open than people that are qualified to more people th…"
 image: "/assets/images/blog/how-to-get-your-resume-noticed/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/how-to-get-your-resume-noticed"
+topics: [job-search]
 ---
 
 Within days the economy went from full employment to a record-setting amount of people filing for unemployment benefits. In other words, we went from having more jobs open than people that are qualified to more people that are jobs available. Many millions of people are now looking for work that didn’t plan to be looking. People are updating resumes and applying for jobs quickly. It may seem difficult to find work now and it may seem difficult to get noticed. How do you get noticed in this tough economic time and when your resume is skimmed quickly?

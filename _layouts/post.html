@@ -4,7 +4,9 @@ body_class: desk
 ---
 <article class="sheet letter">
   <header class="letter-head">
-    <p class="dateline"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+    <p class="dateline"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.topics %}<span class="post-topics">{% for key in page.topics %}{% assign t = site.data.topics | where: "key", key | first %}{% if t %}<a href="{{ '/blog/' | relative_url }}?topic={{ t.key }}">{{ t.name }}</a>{% endif %}{% endfor %}</span>{% endif %}
+    </p>
     <h1 class="letter-title">{{ page.title }}</h1>
     <p class="letter-meta">{{ content | number_of_words | divided_by: 220 | plus: 1 }} min read</p>
   </header>

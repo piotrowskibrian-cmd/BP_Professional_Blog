@@ -5,6 +5,7 @@ permalink: "/f/hiring-in-the-age-of-deepfakes-what-we-should-consider/"
 description: "It’s easy to assume that if deepfake candidates become a real problem, some AI tool will just step in and flag them. But the reality will be much messier at least if you are a remote company interviewing candidates virtu…"
 image: "/assets/images/blog/hiring-in-the-age-of-deepfakes-what-we-should-consider/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/hiring-in-the-age-of-deepfakes-what-we-should-consider"
+topics: [ai, interviewing]
 ---
 
 It’s easy to assume that if deepfake candidates become a real problem, some AI tool will just step in and flag them. But the reality will be much messier at least if you are a remote company interviewing candidates virtually. And yes, I may be inventing a problem that doesn’t fully exist yet but that’s how my brain works.

@@ -5,6 +5,7 @@ permalink: "/f/recruiting-during-the-covid-19-outbreak/"
 description: "Welcome to our new normal; social distancing, virtual meetings, and virtual happy hours. Employees that could, started working from home last week. This week a quarter of the U.S. population is under a shelter in place.…"
 image: "/assets/images/blog/recruiting-during-the-covid-19-outbreak/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/recruiting-during-the-covid-19-outbreak"
+topics: [leadership, market]
 ---
 
 Welcome to our new normal; social distancing, virtual meetings, and virtual happy hours. Employees that could, started working from home last week. This week a quarter of the U.S. population is under a shelter in place. If you were like me, I had to use my cell phone as a hot spot for a few hours due to my home internet provider internet experiencing an outage. Working parents started letting their kids jump onto video calls, dogs barking in the background and we all adapted. The fortunate companies still need to hire people. Hopefully, the people that are out of work can find their way to industries that need staff. As we move forward in recruiting what changes will we see in the coming days, weeks, and months?

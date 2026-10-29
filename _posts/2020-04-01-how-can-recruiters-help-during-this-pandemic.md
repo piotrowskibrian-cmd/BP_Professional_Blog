@@ -5,6 +5,7 @@ permalink: "/f/how-can-recruiters-help-during-this-pandemic/"
 description: "One common theme that has been heard through this pandemic, is how many people are helping their fellow neighbors in need. Individuals with lending libraries in their yards have been converted into mini food pantries. In…"
 image: "/assets/images/blog/how-can-recruiters-help-during-this-pandemic/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/how-can-recruiters-help-during-this-pandemic"
+topics: [leadership]
 ---
 
 One common theme that has been heard through this pandemic, is how many people are helping their fellow neighbors in need. Individuals with lending libraries in their yards have been converted into mini food pantries. Individuals that are capable of running errands for less mobile or neighbor that are at-risk are getting groceries or supplies. We have all come together to help each in this time of crisis. As recruiters, how can we help?

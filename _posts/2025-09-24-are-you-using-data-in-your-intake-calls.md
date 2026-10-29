@@ -5,6 +5,7 @@ permalink: "/f/are-you-using-data-in-your-intake-calls/"
 description: "When it comes to intake calls with hiring managers, most recruiters show up ready to talk job descriptions, interviews, and timelines. But if you’re not walking in with real insights, market data, compensation benchmarks…"
 image: "/assets/images/blog/are-you-using-data-in-your-intake-calls/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/are-you-using-data-in-your-intake-calls"
+topics: [leadership]
 ---
 
 When it comes to intake calls with hiring managers, most recruiters show up ready to talk job descriptions, interviews, and timelines. But if you’re not walking in with real insights, market data, compensation benchmarks, geographic availability, competitor activity, and skill supply versus demand, what value are you actually bringing to the business?

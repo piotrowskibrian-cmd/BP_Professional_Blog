@@ -5,6 +5,7 @@ permalink: "/f/tech’s-favorite-new-buzzword-for-layoffs-ai/"
 description: "2024 and 2025 have been coated in tech layoffs and the list keeps growing."
 image: "/assets/images/blog/techs-favorite-new-buzzword-for-layoffs-ai/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/tech%E2%80%99s-favorite-new-buzzword-for-layoffs-ai"
+topics: [ai, market]
 ---
 
 2024 and 2025 have been coated in tech layoffs and the list keeps growing.

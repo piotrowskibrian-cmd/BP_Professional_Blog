@@ -5,6 +5,7 @@ permalink: "/f/navigating-job-loss-how-recruiters-can-help-laidoff-individuals/"
 description: "As recruiters, we are often the first point of contact for candidates who have been laid off. In times of economic uncertainty, the number of people looking for work increases, and it can be overwhelming for those who ha…"
 image: "/assets/images/blog/navigating-job-loss-how-recruiters-can-help-laidoff-individuals/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/navigating-job-loss-how-recruiters-can-help-laidoff-individuals"
+topics: [job-search, leadership]
 ---
 
 As recruiters, we are often the first point of contact for candidates who have been laid off. In times of economic uncertainty, the number of people looking for work increases, and it can be overwhelming for those who have just lost their jobs. It is our responsibility to help these candidates navigate the job market and find new opportunities.

@@ -1,0 +1,12 @@
+# Blog topics. Tag a post with these keys in its front matter, e.g.
+#   topics: [ai, leadership]
+- key: leadership
+  name: Recruiting and TA leadership
+- key: interviewing
+  name: Interviewing and candidate experience
+- key: job-search
+  name: Job search and careers
+- key: ai
+  name: AI and HR tech
+- key: market
+  name: Hiring market and policy

@@ -5,6 +5,7 @@ permalink: "/f/fairness-in-the-workplace-the-importance-of-pay-transparency/"
 description: "Many states and major cities have enacted pay transparency laws. These laws require employers to disclose pay rates to potential candidates. They are designed to promote fairness and equality in the workplace by ensuring…"
 image: "/assets/images/blog/fairness-in-the-workplace-the-importance-of-pay-transparency/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/fairness-in-the-workplace-the-importance-of-pay-transparency"
+topics: [market]
 ---
 
 Many states and major cities have enacted pay transparency laws. These laws require employers to disclose pay rates to potential candidates. They are designed to promote fairness and equality in the workplace by ensuring that all employees are paid fairly for their work, regardless of factors such as gender, race, or other personal characteristics.

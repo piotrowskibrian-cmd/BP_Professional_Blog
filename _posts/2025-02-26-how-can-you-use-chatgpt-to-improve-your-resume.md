@@ -4,6 +4,7 @@ date: 2025-02-26 16:00:00 +0000
 permalink: "/f/how-can-you-use-chatgpt-to-improve-your-resume/"
 description: "I've enjoyed writing this series on helping candidates in their job search and have a couple more article in this series. For now, let’s focus on how you can use ChatGPT to build your resume and land your next interview."
 godaddy_url: "https://brianpiotrowski.com/f/how-can-you-use-chatgpt-to-improve-your-resume"
+topics: [job-search, ai]
 ---
 
 I've enjoyed writing this series on helping candidates in their job search and have a couple more article in this series. For now, let’s focus on how you can use ChatGPT to build your resume and land your next interview.

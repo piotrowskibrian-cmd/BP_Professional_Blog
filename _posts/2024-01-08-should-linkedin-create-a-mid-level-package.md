@@ -5,6 +5,7 @@ permalink: "/f/should-linkedin-create-a-mid-level-package/"
 description: "In the world of talent acquisition, LinkedIn has established itself as an indispensable tool for recruiters globally. Yet, there's a noticeable gap in its service spectrum, particularly between the Recruiter Lite and Lin…"
 image: "/assets/images/blog/should-linkedin-create-a-mid-level-package/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/should-linkedin-create-a-mid-level-package"
+topics: [ai]
 ---
 
 In the world of talent acquisition, LinkedIn has established itself as an indispensable tool for recruiters globally. Yet, there's a noticeable gap in its service spectrum, particularly between the Recruiter Lite and LinkedIn Recruiter offerings. The significant price gap – with Recruiter Lite around $1,200 per seat per year and LinkedIn Recruiter surpassing $15,000 per seat per year – highlights the need for a middle-tier option that could benefit more companies. Clearly, there is a reason why a package doesn't exist but there is a need.

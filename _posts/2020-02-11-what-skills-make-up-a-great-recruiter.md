@@ -5,6 +5,7 @@ permalink: "/f/what-skills-make-up-a-great-recruiter/"
 description: "It may be a seemingly easy question to answer. However, like many questions, the answer is much complicated. Most recruiters function in a basic role of filling roles. Other recruiters will follow industry trends to see…"
 image: "/assets/images/blog/what-skills-make-up-a-great-recruiter/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/what-skills-make-up-a-great-recruiter"
+topics: [leadership]
 ---
 
 It may be a seemingly easy question to answer. However, like many questions, the answer is much complicated. Most recruiters function in a basic role of filling roles. Other recruiters will follow industry trends to see what companies are growing, laying off, and helping operations where possible to grow and better the organization. So what skills should a recruiter have? What makes a good recruiter, great?

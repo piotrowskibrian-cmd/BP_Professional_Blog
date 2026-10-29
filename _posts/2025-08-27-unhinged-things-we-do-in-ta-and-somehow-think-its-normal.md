@@ -5,6 +5,7 @@ permalink: "/f/unhinged-things-we-do-in-ta-and-somehow-think-it’s-normal/"
 description: "Being in Talent Acquisition can be strange for many of us. We live in this odd intersection where business expectations, human emotions, and systems from 2004 collide daily. Somewhere along the way, we’ve normalized beha…"
 image: "/assets/images/blog/unhinged-things-we-do-in-ta-and-somehow-think-its-normal/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/unhinged-things-we-do-in-ta-and-somehow-think-it%E2%80%99s-normal"
+topics: [leadership]
 ---
 
 Being in Talent Acquisition can be strange for many of us. We live in this odd intersection where business expectations, human emotions, and systems from 2004 collide daily. Somewhere along the way, we’ve normalized behaviors that, if you really think about them, are borderline unhinged.

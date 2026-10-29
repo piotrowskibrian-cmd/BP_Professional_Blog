@@ -5,6 +5,7 @@ permalink: "/f/don’t-lose-sight-of-candidate-experience/"
 description: "As the number of unemployed individuals continues to rise, so to will, the number of individuals who will keep applying to open positions. Over the last few years, we’ve seen increasing popularity of company review board…"
 image: "/assets/images/blog/dont-lose-sight-of-candidate-experience/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/don%E2%80%99t-lose-sight-of-candidate-experience"
+topics: [interviewing]
 ---
 
 As the number of unemployed individuals continues to rise, so to will, the number of individuals who will keep applying to open positions. Over the last few years, we’ve seen increasing popularity of company review boards such as Glassdoor and Indeed, these sites make it easier for candidates to tell about their experience interviewing at a company. Candidates are looking for a transparent process and want to know what to expect. Be rational and empathetic towards your candidates. During a pandemic or during good economic times we should work towards providing a great candidate experience. We know that times will improve and if that candidate may not be a fit now, you may want them to interview during good economic times. If candidates are treated poorly now but still receive an offer, once the economy picks up they will leave causing more turn over for your organization that could have been avoided.

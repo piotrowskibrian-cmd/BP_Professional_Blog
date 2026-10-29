@@ -5,6 +5,7 @@ permalink: "/f/ontario-updates-working-for-workers-act/"
 description: "Ontario has expanded its Working for Works Act, introducing several new requirements for organizations. Among these updates, two stand out as particularly significant: the mandate for employers to disclose whether a job…"
 image: "/assets/images/blog/ontario-updates-working-for-workers-act/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/ontario-updates-working-for-workers-act"
+topics: [market]
 ---
 
 Ontario has expanded its Working for Works Act, introducing several new requirements for organizations. Among these updates, two stand out as particularly significant: the mandate for employers to disclose whether a job vacancy genuinely exists and the requirement to respond to interviewees within a specified timeframe.

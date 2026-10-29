@@ -5,6 +5,7 @@ permalink: "/f/interviewing-during-the-covid-19-outbreak/"
 description: "Unless you live under a rock, you know COVID-19 has spread across the world. A majority of our workforce is now remote to combat the outbreak. A fair amount of employers still have roles they need to fill, we all need to…"
 image: "/assets/images/blog/interviewing-during-the-covid-19-outbreak/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/interviewing-during-the-covid-19-outbreak"
+topics: [interviewing]
 ---
 
 Unless you live under a rock, you know COVID-19 has spread across the world. A majority of our workforce is now remote to combat the outbreak. A fair amount of employers still have roles they need to fill, we all need to be flexible and adapt in our current situation.

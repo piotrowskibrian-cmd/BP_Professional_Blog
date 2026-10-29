@@ -5,6 +5,7 @@ permalink: "/f/how-social-media-is-changing-the-game-of-recruitment/"
 description: "It is a commonly held belief that social media has the potential to replace traditional job boards as a means of connecting job seekers with potential employers. In fact, many people believe that this shift has already b…"
 image: "/assets/images/blog/how-social-media-is-changing-the-game-of-recruitment/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/how-social-media-is-changing-the-game-of-recruitment"
+topics: [leadership]
 ---
 
 It is a commonly held belief that social media has the potential to replace traditional job boards as a means of connecting job seekers with potential employers. In fact, many people believe that this shift has already begun and is supplementing job boards.

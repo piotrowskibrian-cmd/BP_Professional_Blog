@@ -5,6 +5,7 @@ permalink: "/f/modernizing-ta-through-curiosity-and-small-experiments/"
 description: "This whole thing started because I got curious, and remember talent acquisitions is a lot of pushing yourself. This took me a long time to figure out how I wanted to share this story."
 image: "/assets/images/blog/modernizing-ta-through-curiosity-and-small-experiments/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/modernizing-ta-through-curiosity-and-small-experiments"
+topics: [ai, leadership]
 ---
 
 This whole thing started because I got curious, and remember talent acquisitions is a lot of pushing yourself. This took me a long time to figure out how I wanted to share this story.

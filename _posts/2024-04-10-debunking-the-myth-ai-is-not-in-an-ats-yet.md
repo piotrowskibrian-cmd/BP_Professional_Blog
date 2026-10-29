@@ -5,6 +5,7 @@ permalink: "/f/debunking-the-myth-ai-is-not-in-an-ats-yet/"
 description: "Even before ChatGPT, rumors of AI in Applicant Tracking Systems were around. This buzz has fueled by job seekers and people in the industry. People started businesses to \"hack\" the ATS. Don't misunderstand—it was a small…"
 image: "/assets/images/blog/debunking-the-myth-ai-is-not-in-an-ats-yet/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/debunking-the-myth-ai-is-not-in-an-ats-yet"
+topics: [ai, job-search]
 ---
 
 Even before ChatGPT, rumors of AI in Applicant Tracking Systems were around. This buzz has fueled by job seekers and people in the industry. People started businesses to "hack" the ATS. Don't misunderstand—it was a small minorty of people. Let's delve into why AI isn't widely adopted in ATS systems yet:

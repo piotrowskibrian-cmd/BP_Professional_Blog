@@ -5,6 +5,7 @@ permalink: "/f/what-i’m-thankful-for-this-thanksgiving-recruiting-edition/"
 description: "As we gather around the table this Thanksgiving, I’m taking a moment to reflect on the things I’m truly thankful for. Family? Of course. Good food? Absolutely. But as a recruiter, there are a few things I’m especially gr…"
 image: "/assets/images/blog/what-im-thankful-for-this-thanksgiving-recruiting-edition/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/what-i%E2%80%99m-thankful-for-this-thanksgiving-recruiting-edition"
+topics: [leadership]
 ---
 
 As we gather around the table this Thanksgiving, I’m taking a moment to reflect on the things I’m truly thankful for. Family? Of course. Good food? Absolutely. But as a recruiter, there are a few things I’m especially grateful for this year. Grab a PSL and let’s dive into this gratitude-filled post:

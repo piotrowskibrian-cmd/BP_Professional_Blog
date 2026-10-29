@@ -5,6 +5,7 @@ permalink: "/f/your-internship-is-ending-now-what-here-are-5-things/"
 description: "Your internship is coming to an end and your next seminar is about to begin. Remember the point of your internship is to gain real world experience. That also means taking initiative and leaning what is next. You'll like…"
 image: "/assets/images/blog/your-internship-is-ending-now-what-here-are-5-things/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/your-internship-is-ending-now-what-here-are-5-things"
+topics: [job-search]
 ---
 
 Your internship is coming to an end and your next seminar is about to begin. Remember the point of your internship is to gain real world experience. That also means taking initiative and leaning what is next. You'll likely start receiving your good-bye messages from your manager, the company survey about your internship, and all the off-boarding process from HR. However, there are things you can be doing to set yourself up for success for next summer's internship or your first full time offer post graduation.

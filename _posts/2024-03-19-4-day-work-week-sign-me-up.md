@@ -5,6 +5,7 @@ permalink: "/f/4-day-work-week---sign-me-up/"
 description: "If you haven’t heard, Bernie Sanders' introduction of a bill aiming to transition the standard work week to four days, consisting of eight working hours per day, while maintaining current pay levels. Although I haven't r…"
 image: "/assets/images/blog/4-day-work-week-sign-me-up/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/4-day-work-week---sign-me-up"
+topics: [market]
 ---
 
 If you haven’t heard, Bernie Sanders' introduction of a bill aiming to transition the standard work week to four days, consisting of eight working hours per day, while maintaining current pay levels. Although I haven't read the bill's specifics, it is understood that such a change is backed by research demonstrating enhancements in productivity, environmental impact, and well-being from a shortened work week. ([https://www.weforum.org/agenda/2023/10/surprising-benefits-four-day-week/](https://www.weforum.org/agenda/2023/10/surprising-benefits-four-day-week/))

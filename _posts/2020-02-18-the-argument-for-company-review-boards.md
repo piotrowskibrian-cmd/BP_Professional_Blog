@@ -5,6 +5,7 @@ permalink: "/f/the-argument-for-company-review-boards/"
 description: "In today’s society, everyone is getting rated. We all have credit scores, our Uber drivers rate us, we rate our Amazon purchases, so why shouldn’t we rate our employers?"
 image: "/assets/images/blog/the-argument-for-company-review-boards/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-argument-for-company-review-boards"
+topics: [market]
 ---
 
 In today’s society, everyone is getting rated. We all have credit scores, our Uber drivers rate us, we rate our Amazon purchases, so why shouldn’t we rate our employers?

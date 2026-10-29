@@ -5,6 +5,7 @@ permalink: "/f/career-fair-season-is-coming-here’s-a-few-ways-to-prepare/"
 description: "The evenings are cooling down, college football is back, and employers are showing up on campus looking for next year’s interns."
 image: "/assets/images/blog/career-fair-season-is-coming-heres-a-few-ways-to-prepare/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/career-fair-season-is-coming-here%E2%80%99s-a-few-ways-to-prepare"
+topics: [job-search]
 ---
 
 The evenings are cooling down, college football is back, and employers are showing up on campus looking for next year’s interns.

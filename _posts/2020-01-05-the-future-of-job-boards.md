@@ -5,6 +5,7 @@ permalink: "/f/the-future-of-job-boards/"
 description: "Job boards as we know them today haven’t always been around; we use to call them the “classified” section of the Newspaper. As we know job boards today - where you go to a website to find open positions have been around…"
 image: "/assets/images/blog/the-future-of-job-boards/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-future-of-job-boards"
+topics: [ai]
 ---
 
 Job boards as we know them today haven’t always been around; we use to call them the “classified” section of the Newspaper. As we know job boards today - where you go to a website to find open positions have been around since the dot com boom. For the sake of this conversation, we will call them “Original Job Boards.” There isn’t anything special about these sites. Companies are required to pay a fee to post the openings and candidates go to the site to search for open jobs. Other job boards have come to the market to builds sites that aggregate from company career sites. Meaning the job board comes scraps all the open positions from the companies website to post on their job board. Original Job Boards and the Aggregator sites are both still around in today’s market. The major difference between the two styles of websites; for the original job boards companies need to pay to be on those sites and aggregator sites you'll need to pass along the URL of your career site to the job board.

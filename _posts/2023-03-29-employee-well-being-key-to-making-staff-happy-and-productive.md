@@ -5,6 +5,7 @@ permalink: "/f/employee-well-being-key-to-making-staff-happy-and-productive/"
 description: "With layoffs, toxic cultures, and with the negative press about employers making heartless policies. We have already forgotten what the Great Resignation should have taught us as a society. In today's fast-paced and comp…"
 image: "/assets/images/blog/employee-well-being-key-to-making-staff-happy-and-productive/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/employee-well-being-key-to-making-staff-happy-and-productive"
+topics: [leadership]
 ---
 
 With layoffs, toxic cultures, and with the negative press about employers making heartless policies. We have already forgotten what the Great Resignation should have taught us as a society. In today's fast-paced and competitive business environment, employee retention is key. If you want to see crazy policies go to Redit's subreddit r/antiwork. You will be lost for hours reading terrible work policies, terrible coworkers, and terrible leaders. Employers need to start prioritizing their employees' well-being, including their mental health, paid time off (PTO), and work-life balance, tend to have happier, more productive, and loyal employees.

@@ -5,6 +5,7 @@ permalink: "/f/the-ripple-effect-of-tariffs-on-us-hiring/"
 description: "Alright — let’s talk tariffs."
 image: "/assets/images/blog/the-ripple-effect-of-tariffs-on-us-hiring/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-ripple-effect-of-tariffs-on-us-hiring"
+topics: [market]
 ---
 
 Alright — let’s talk tariffs.

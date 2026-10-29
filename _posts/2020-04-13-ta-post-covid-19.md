@@ -5,6 +5,7 @@ permalink: "/f/ta-post-covid-19/"
 description: "We all know, our world post COVID-19 will not be the same as it was prior to this pandemic. It will change our everyday life for the better, some will be worse, and some changes will just be changes we all will adapt to.…"
 image: "/assets/images/blog/ta-post-covid-19/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/ta-post-covid-19"
+topics: [leadership, market]
 ---
 
 We all know, our world post COVID-19 will not be the same as it was prior to this pandemic. It will change our everyday life for the better, some will be worse, and some changes will just be changes we all will adapt to. For must of us, we are hoping we have hit our peak of cases and cases begin to reduce so we can enjoy the things we’ve missed. Letting us return to normal life. In the world of recruiting and talent acquisition what will change? How will this pandemic change the field we are in? Below are my 4 predictions for staffing and recruiting.

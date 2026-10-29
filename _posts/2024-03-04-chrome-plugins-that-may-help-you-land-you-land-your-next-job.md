@@ -5,6 +5,7 @@ permalink: "/f/chrome-plugins-that-may-help-you-land-you-land-your-next-job/"
 description: "There are several Chrome extensions designed to assist job seekers in navigating the increasingly challenging job market. By either enhancing a candidate's visibility or simplifying the application process, these tools o…"
 image: "/assets/images/blog/chrome-plugins-that-may-help-you-land-you-land-your-next-job/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/chrome-plugins-that-may-help-you-land-you-land-your-next-job"
+topics: [job-search, ai]
 ---
 
 There are several Chrome extensions designed to assist job seekers in navigating the increasingly challenging job market. By either enhancing a candidate's visibility or simplifying the application process, these tools offer valuable support in the search for new opportunities.

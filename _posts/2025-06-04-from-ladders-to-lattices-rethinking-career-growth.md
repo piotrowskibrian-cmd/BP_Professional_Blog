@@ -5,6 +5,7 @@ permalink: "/f/from-ladders-to-lattices-rethinking-career-growth/"
 description: "We were taught to aspire to climb the corporate ladder. However, in the near future, I believe we will see less career progression in terms of titles and more in cross functional development. The professional path of goi…"
 image: "/assets/images/blog/from-ladders-to-lattices-rethinking-career-growth/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/from-ladders-to-lattices-rethinking-career-growth"
+topics: [job-search, leadership]
 ---
 
 We were taught to aspire to climb the corporate ladder. However, in the near future, I believe we will see less career progression in terms of titles and more in cross functional development. The professional path of going to school, picking a career, and staying in that field until retirement is fading.

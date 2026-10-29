@@ -5,6 +5,7 @@ permalink: "/f/8-unconventional-career-paths-for-talent-acquisition-pros/"
 description: "The other week, the CEO of Perplexity, Aravind Srinivas, claimed that new advances in AI could soon make recruiters and executive assistants obsolete. While I respect technological progress, I’d argue that Mr. Srinivas d…"
 image: "/assets/images/blog/8-unconventional-career-paths-for-talent-acquisition-pros/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/8-unconventional-career-paths-for-talent-acquisition-pros"
+topics: [leadership, job-search]
 ---
 
 The other week, the CEO of Perplexity, Aravind Srinivas, claimed that new advances in AI could soon make recruiters and executive assistants obsolete. While I respect technological progress, I’d argue that Mr. Srinivas doesn’t fully grasp what Talent Acquisition truly does or why it’s so valuable to organizations.

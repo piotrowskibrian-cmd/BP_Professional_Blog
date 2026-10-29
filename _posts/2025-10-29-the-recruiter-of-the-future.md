@@ -5,6 +5,7 @@ permalink: "/f/the-recruiter-of-the-future/"
 description: "Over the past few weeks, I’ve been digging into everything Eric Schmidt, former CEO of Google, has been saying about AI. His view of the next decade is direct; we are currently in the state where everyone has some access…"
 image: "/assets/images/blog/the-recruiter-of-the-future/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-recruiter-of-the-future"
+topics: [ai, leadership]
 ---
 
 Over the past few weeks, I’ve been digging into everything Eric Schmidt, former CEO of Google, has been saying about AI. His view of the next decade is direct; we are currently in the state where everyone has some access to an AI assistants we rely on daily.

@@ -5,6 +5,7 @@ permalink: "/f/preventing-quiet-quitting-supporting-employees-in-the-workplace/"
 description: "Quiet quitting refers to the process of employees disengaging from their job and reducing their commitment to their company. An employee who quietly quits may start looking for another job or lose interest in their curre…"
 image: "/assets/images/blog/preventing-quiet-quitting-supporting-employees-in-the-workplace/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/preventing-quiet-quitting-supporting-employees-in-the-workplace"
+topics: [leadership]
 ---
 
 Quiet quitting refers to the process of employees disengaging from their job and reducing their commitment to their company. An employee who quietly quits may start looking for another job or lose interest in their current role. As a result, they gradually stop contributing and drift away from the company.

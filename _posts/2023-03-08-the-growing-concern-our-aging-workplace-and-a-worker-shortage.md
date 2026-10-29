@@ -5,6 +5,7 @@ permalink: "/f/the-growing-concern-our-aging-workplace-and-a-worker-shortage/"
 description: "In recent years, there has been growing concern over a worker shortage and an aging workforce. This phenomenon is not limited to a specific country, including the United States. In fact, most, if not all, first-world cou…"
 image: "/assets/images/blog/the-growing-concern-our-aging-workplace-and-a-worker-shortage/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-growing-concern-our-aging-workplace-and-a-worker-shortage"
+topics: [market]
 ---
 
 In recent years, there has been growing concern over a worker shortage and an aging workforce. This phenomenon is not limited to a specific country, including the United States. In fact, most, if not all, first-world countries are facing labor shortages in various ways. In this article, we will explore the reasons behind the worker shortage and aging workforce, and the impact it has on the economy and society.

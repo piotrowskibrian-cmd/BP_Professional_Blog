@@ -5,6 +5,7 @@ permalink: "/f/12-days-of-christmas-a-recruitment-twist/"
 description: "The festive season is here, and while we’re all decking the halls and sipping mulled wine, recruitment doesn’t stop! Here is my rendition “The 12 Days of Christmas,” with a little recruitment twist:"
 image: "/assets/images/blog/12-days-of-christmas-a-recruitment-twist/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/12-days-of-christmas-a-recruitment-twist"
+topics: [leadership]
 ---
 
 The festive season is here, and while we’re all decking the halls and sipping mulled wine, recruitment doesn’t stop! Here is my rendition “The 12 Days of Christmas,” with a little recruitment twist:

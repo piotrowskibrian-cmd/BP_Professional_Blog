@@ -5,6 +5,7 @@ permalink: "/f/how-do-we-fix-the-aec-talent-shortage/"
 description: "Last post, we dug into the numbers. Now, let’s talk about where we go from here. With limited talent entering the industry, we need to take a hard look at how we attract, develop, and retain the people who want to build…"
 image: "/assets/images/blog/how-do-we-fix-the-aec-talent-shortage/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/how-do-we-fix-the-aec-talent-shortage"
+topics: [market, leadership]
 ---
 
 Last post, we dug into the numbers. Now, let’s talk about where we go from here. With limited talent entering the industry, we need to take a hard look at how we attract, develop, and retain the people who want to build a career in AEC.

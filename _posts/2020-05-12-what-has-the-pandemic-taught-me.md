@@ -5,6 +5,7 @@ permalink: "/f/what-has-the-pandemic-taught-me/"
 description: "The last two weeks were an unintentional break from writing. With the COVID - 19 pandemic in the background it’s been hard to write about current recruitment trends or fads. Yes, things are changing on how we recruit but…"
 image: "/assets/images/blog/what-has-the-pandemic-taught-me/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/what-has-the-pandemic-taught-me"
+topics: [leadership]
 ---
 
 The last two weeks were an unintentional break from writing. With the COVID - 19 pandemic in the background it’s been hard to write about current recruitment trends or fads. Yes, things are changing on how we recruit but bigger issues of a global health pandemic have been on my mind. We all have fears due to the uncertainty of this virus. We all want to go back to our normal lives but we know it won’t be the same as before the pandemic. It’s been roughly two months since most of us have been told we are working from home for the next two weeks. Yes, that's right two weeks is now two months. In this time we have gotten accustomed to dogs barking and kids on zoom calls. At home, we’ve started binge-watching Netflix, video chatting with friends, and baking endless supplies of bread, cookies, cupcakes. To this point in this pandemic, what has this taught me?

@@ -5,6 +5,7 @@ permalink: "/f/biggest-“icks”-in-recruitment-a-talent-acquisition-vent-sessi
 description: "Recruitment is a profession I truly love—but let’s be real, it’s not without its fair share of moments that make me cringe. Here are my 5 biggest “icks” in the hiring process—those things that make me want to throw my ha…"
 image: "/assets/images/blog/biggest-icks-in-recruitment-a-talent-acquisition-vent-session/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/biggest-%E2%80%9Cicks%E2%80%9D-in-recruitment-a-talent-acquisition-vent-session"
+topics: [leadership, interviewing]
 ---
 
 Recruitment is a profession I truly love—but let’s be real, it’s not without its fair share of moments that make me cringe. Here are my 5 biggest “icks” in the hiring process—those things that make me want to throw my hands up in frustration. Whether you’re a recruiter, hiring manager, or candidate, I’m sure you’ve encountered some of these too.

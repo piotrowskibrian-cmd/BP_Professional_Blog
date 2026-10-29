@@ -5,6 +5,7 @@ permalink: "/f/revolutionizing-job-applications-with-lazyapply/"
 description: "In today's world, companies do a terrible job with the application process. You have to create a username and password, and the application process is outdated, as is the user interface. It takes too much time, and resum…"
 image: "/assets/images/blog/revolutionizing-job-applications-with-lazyapply/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/revolutionizing-job-applications-with-lazyapply"
+topics: [ai, job-search]
 ---
 
 In today's world, companies do a terrible job with the application process. You have to create a username and password, and the application process is outdated, as is the user interface. It takes too much time, and resume parsing tools don't work correctly. Every time you apply, you have to refill the same data, which is redundant. It's a nightmare for many candidates applying to positions. Fortunately, Lazyapply.com offers a solution to this ongoing problem.

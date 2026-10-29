@@ -5,6 +5,7 @@ permalink: "/f/navigating-corporate-layoffs/"
 description: "In light of recent layoffs, it's vital to acknowledge the unpredictable nature of the corporate world. Facing potential layoffs in 2024 can be challenging, but being prepared can make a significant difference. Here’s a c…"
 image: "/assets/images/blog/navigating-corporate-layoffs/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/navigating-corporate-layoffs"
+topics: [job-search, market]
 ---
 
 In light of recent layoffs, it's vital to acknowledge the unpredictable nature of the corporate world. Facing potential layoffs in 2024 can be challenging, but being prepared can make a significant difference. Here’s a concise guide to handling potential layoffs:

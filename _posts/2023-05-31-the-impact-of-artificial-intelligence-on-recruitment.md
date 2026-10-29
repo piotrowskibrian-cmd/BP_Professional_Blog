@@ -5,6 +5,7 @@ permalink: "/f/the-impact-of-artificial-intelligence-on-recruitment/"
 description: "Artificial Intelligence has been in the news in every industry. It is revolutionizing the way we live and work, and the recruitment industry is no exception. From automating repetitive tasks to improving candidate matchi…"
 image: "/assets/images/blog/the-impact-of-artificial-intelligence-on-recruitment/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/the-impact-of-artificial-intelligence-on-recruitment"
+topics: [ai]
 ---
 
 Artificial Intelligence has been in the news in every industry. It is revolutionizing the way we live and work, and the recruitment industry is no exception. From automating repetitive tasks to improving candidate matching, AI is changing the way companies approach the recruitment process.

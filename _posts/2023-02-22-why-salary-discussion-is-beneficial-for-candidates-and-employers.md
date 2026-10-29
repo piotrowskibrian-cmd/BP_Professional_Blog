@@ -5,6 +5,7 @@ permalink: "/f/why-salary-discussion-is-beneficial-for-candidates-and-employers/
 description: "Discussing salary expectations has often been a taboo subject. Both candidates and employers may feel uncomfortable discussing compensation, with the fear that it could harm the interview process somehow. Having open an…"
 image: "/assets/images/blog/why-salary-discussion-is-beneficial-for-candidates-and-employers/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/why-salary-discussion-is-beneficial-for-candidates-and-employers"
+topics: [interviewing, market]
 ---
 
 Discussing salary expectations has often been a  taboo subject. Both candidates and employers may feel uncomfortable discussing compensation, with the fear that it could harm the interview process somehow. Having open and honest conversations about salary can actually benefit both parties, let's face it we don't want to waste anyone's time. Why should we be transparent in our process?

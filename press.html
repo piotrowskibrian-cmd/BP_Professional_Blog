@@ -1,0 +1,62 @@
+---
+title: Press kit
+permalink: /press/
+description: Bio, headshots, and podcast details for event organizers, podcast hosts, and media featuring Brian Piotrowski.
+---
+<section class="wrap-narrow press">
+  <h1 class="page-title">Press kit</h1>
+  <p class="section-lede">Everything you need to feature Brian on a panel, podcast, or article. Use anything on this page as is.</p>
+
+  <h2>Short bio</h2>
+  <div class="bio-block" id="bio-short">
+    <p>Brian Piotrowski is a Talent Acquisition leader with 15+ years building recruiting teams and modernizing the systems behind great hiring. He writes <em>The Offer Letter</em> and hosts the <em>Candidate Spotlight</em> podcast, sharing candid, real-world takes for recruiters, hiring leaders, and job seekers.</p>
+  </div>
+  <button class="copy-btn" type="button" data-copy="bio-short">Copy short bio</button>
+
+  <h2>Full bio</h2>
+  <div class="bio-block" id="bio-long">
+    <p>Brian Piotrowski is a Talent Acquisition executive with more than 15 years of experience building high-performing recruiting teams and modernizing the systems, technology, and processes behind great hiring. He has led talent acquisition for large architecture, engineering, and construction firms, including a global TA organization hiring across North America, the Pacific, Saudi Arabia, and Latin America.</p>
+    <p>His career spans corporate teams and search firms, with hiring across AEC, Oil &amp; Gas, Manufacturing, Environmental Services, IT, and Technology. He has also served on a corporate AI Governance Board, helping shape responsible automation and talent data strategy.</p>
+    <p>Through <em>The Offer Letter</em>, Brian challenges the "we've always done it that way" mindset in recruiting. On <em>Candidate Spotlight</em>, he gives job seekers a voice and shares the stories behind their resumes.</p>
+  </div>
+  <button class="copy-btn" type="button" data-copy="bio-long">Copy full bio</button>
+
+  <h2>Photos</h2>
+  <div class="press-photos">
+    <figure>
+      <a href="{{ '/assets/images/brian-piotrowski-headshot-hires.jpg' | relative_url }}" download><img src="{{ '/assets/images/brian.jpg' | relative_url }}" alt="Brian Piotrowski headshot" loading="lazy"></a>
+      <figcaption><a href="{{ '/assets/images/brian-piotrowski-headshot-hires.jpg' | relative_url }}" download>Download headshot</a> (high resolution JPG)</figcaption>
+    </figure>
+    {% if site.data.podcast.image %}
+    <figure class="square">
+      <a href="{{ site.data.podcast.image }}"><img src="{{ site.data.podcast.image }}" alt="Candidate Spotlight podcast cover art" loading="lazy"></a>
+      <figcaption><a href="{{ site.data.podcast.image }}">Download podcast cover art</a></figcaption>
+    </figure>
+    {% endif %}
+  </div>
+
+  <h2>Topics Brian talks about</h2>
+  <ul class="press-topics">
+    <li>Building and restructuring TA teams around the business</li>
+    <li>Recruiting data, KPIs, and data-driven intake calls</li>
+    <li>AI in hiring: what's real, what's hype, and responsible adoption</li>
+    <li>Structured interviewing and candidate experience</li>
+    <li>Early-career and campus recruiting</li>
+    <li>Talent shortages in architecture, engineering, and construction</li>
+    <li>Job search strategy for today's market</li>
+  </ul>
+
+  <h2>Get in touch</h2>
+  <p>For podcasts, panels, and interviews, email <a href="mailto:{{ site.email }}?subject=Speaking%20or%20media%20request">brian@brianpiotrowski.com</a> or connect on <a href="{{ site.linkedin }}">LinkedIn</a>.</p>
+</section>
+<script>
+document.querySelectorAll('.copy-btn').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var text = document.getElementById(b.dataset.copy).innerText.trim();
+    var label = b.textContent;
+    (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function () {
+      b.textContent = 'Copied'; setTimeout(function () { b.textContent = label; }, 1800);
+    }, function () { b.textContent = 'Select the text to copy'; });
+  });
+});
+</script>

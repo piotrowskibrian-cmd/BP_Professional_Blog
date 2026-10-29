@@ -5,6 +5,7 @@ permalink: "/f/does-the-perfect-candidate-exist/"
 description: "If you’ve spent any time recruiting this year, you’ve probably heard the same thing over and over, “The market is terrible.”"
 image: "/assets/images/blog/does-the-perfect-candidate-exist/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/does-the-perfect-candidate-exist"
+topics: [interviewing, leadership]
 ---
 
 If you’ve spent any time recruiting this year, you’ve probably heard the same thing over and over, “The market is terrible.”

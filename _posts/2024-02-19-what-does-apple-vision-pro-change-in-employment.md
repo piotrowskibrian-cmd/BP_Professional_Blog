@@ -5,6 +5,7 @@ permalink: "/f/what-does-apple-vision-pro-change-in-employment/"
 description: "Apple just released its new Apple Vision Pro. After the release, we have seen people wearing the goggles while driving, on trains, and walking through malls. Besides the immediate concern of less human interaction - I fi…"
 image: "/assets/images/blog/what-does-apple-vision-pro-change-in-employment/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/what-does-apple-vision-pro-change-in-employment"
+topics: [ai]
 ---
 
 Apple just released its new Apple Vision Pro. After the release, we have seen people wearing the goggles while driving, on trains, and walking through malls. Besides the immediate concern of less human interaction - I finally do believe the metaverse can actually happen.

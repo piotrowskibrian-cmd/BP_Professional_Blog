@@ -5,6 +5,7 @@ permalink: "/f/aec-industry—what-does-the-talent-shortage-actually-look-like/"
 description: "AEC industry—we hearing about how we’re facing a shortage of engineers and architects, but we’re not looking closely enough at the numbers and where we’re actually heading."
 image: "/assets/images/blog/aec-industrywhat-does-the-talent-shortage-actually-look-like/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/aec-industry%E2%80%94what-does-the-talent-shortage-actually-look-like"
+topics: [market]
 ---
 
 AEC industry—we hearing about how we’re facing a shortage of engineers and architects, but we’re not looking closely enough at the numbers and where we’re actually heading.

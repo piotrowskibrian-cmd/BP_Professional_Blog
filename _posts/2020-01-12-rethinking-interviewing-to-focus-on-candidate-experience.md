@@ -5,6 +5,7 @@ permalink: "/f/rethinking-interviewing-to-focus-on-candidate-experience/"
 description: "How would the interview process look if we rethought our current recruitment process and challenged our current process for applying, interviews, and offers? If we truly made everything about the candidate experience?"
 image: "/assets/images/blog/rethinking-interviewing-to-focus-on-candidate-experience/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/rethinking-interviewing-to-focus-on-candidate-experience"
+topics: [interviewing]
 ---
 
 How would the interview process look if we rethought our current recruitment process and challenged our current process for applying, interviews, and offers? If we truly made everything about the candidate experience?

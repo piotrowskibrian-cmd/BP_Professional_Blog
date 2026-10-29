@@ -5,6 +5,7 @@ permalink: "/f/welcome-2020-here-we-come/"
 description: "Did I just buy a web domain? What am I doing? My first blog post is coming out on my birthday? Now what?"
 image: "/assets/images/blog/welcome-2020-here-we-come/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/welcome-2020-here-we-come"
+topics: [leadership]
 ---
 
 Did I just buy a web domain? What am I doing? My first blog post is coming out on my birthday? Now what?

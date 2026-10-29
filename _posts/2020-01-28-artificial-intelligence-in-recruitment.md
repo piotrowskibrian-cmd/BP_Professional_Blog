@@ -5,6 +5,7 @@ permalink: "/f/artificial-intelligence-in-recruitment/"
 description: "Artificial intelligence has the opportunity to support recruitment in ways we can’t imagine but could have unwanted consequences. Google has created Ai that was used to call a restaurant to make dinner reservations. Howe…"
 image: "/assets/images/blog/artificial-intelligence-in-recruitment/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/artificial-intelligence-in-recruitment"
+topics: [ai]
 ---
 
 Artificial intelligence has the opportunity to support recruitment in ways we can’t imagine but could have unwanted consequences. Google has created Ai that was used to call a restaurant to make dinner reservations. However, Amazon created Ai to support recruitment but the Ai started discriminating against applicants. The capability of Ai is growing and the investments in recruitment tech are growing every year. Already, we have Ai that helps us daily but what if we take Ai a step further? What if Ai can help us transform the quickness and services we offer as a Talent Acquisitions team?

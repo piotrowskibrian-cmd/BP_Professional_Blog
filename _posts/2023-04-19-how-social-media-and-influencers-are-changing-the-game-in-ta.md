@@ -5,6 +5,7 @@ permalink: "/f/how-social-media-and-influencers-are-changing-the-game-in-ta/"
 description: "As the world of recruitment evolves, job boards are gradually losing their dominance, and social media is emerging as the new frontier for finding and attracting top talent. With the rise of social media influencers and…"
 image: "/assets/images/blog/how-social-media-and-influencers-are-changing-the-game-in-ta/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/how-social-media-and-influencers-are-changing-the-game-in-ta"
+topics: [leadership]
 ---
 
 As the world of recruitment evolves, job boards are gradually losing their dominance, and social media is emerging as the new frontier for finding and attracting top talent. With the rise of social media influencers and their ability to reach and engage with millions of followers, job ads are being pushed to a whole new level. Its a new and difficult way to process "posting a job" but it's ever important as TA professionals we must evolve and understand how social media is changing job ads.

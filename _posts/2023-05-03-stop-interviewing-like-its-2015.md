@@ -5,6 +5,7 @@ permalink: "/f/stop-interviewing-like-its-2015/"
 description: "Job interviews have been an integral part of the hiring process for many years, but in recent times, there has been a shift towards a more candidate-centric approach. The traditional interview process of asking generic q…"
 image: "/assets/images/blog/stop-interviewing-like-its-2015/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/stop-interviewing-like-its-2015"
+topics: [interviewing]
 ---
 
 Job interviews have been an integral part of the hiring process for many years, but in recent times, there has been a shift towards a more candidate-centric approach. The traditional interview process of asking generic questions, evaluating responses, and assessing skills is no longer enough. Instead, companies should focus on interviewing with the candidate experience in mind. Here are some reasons why we should stop interviewing like it’s 2015 and start interviewing with the candidate experience in mind:

@@ -1,16 +1,25 @@
 ---
 layout: default
 title: Blog
-description: Every post from The Offer Letter by Brian Piotrowski, from 2019 to today.
+description: Every post from The Offer Letter by Brian Piotrowski, from 2019 to today, by topic.
 ---
 <section class="wrap-narrow archive">
   <h1 class="page-title">Blog</h1>
   <p class="section-lede">{{ site.posts.size }} posts on recruiting, hiring, and the job market since 2019.</p>
+
+  <div class="topic-chips" role="group" aria-label="Filter by topic">
+    <button type="button" class="chip" data-topic="" aria-pressed="true">All posts</button>
+    {% for t in site.data.topics %}
+    {% assign n = 0 %}{% for p in site.posts %}{% if p.topics contains t.key %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+    <button type="button" class="chip" data-topic="{{ t.key }}" aria-pressed="false">{{ t.name }} <span class="chip-count">{{ n }}</span></button>
+    {% endfor %}
+  </div>
+
   <label class="filter">
     <span>Find a post</span>
     <input type="search" id="post-filter" placeholder="Search by title, e.g. resume, AI, interview" autocomplete="off">
   </label>
-  <p class="filter-empty" id="filter-empty" hidden>No posts match that search. Try a shorter word.</p>
+  <p class="filter-empty" id="filter-empty" hidden>No posts match. Try a shorter word or another topic.</p>
 
   {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
   {% for year in years %}
@@ -18,7 +27,7 @@ description: Every post from The Offer Letter by Brian Piotrowski, from 2019 to 
     <h2 class="year-label">{{ year.name }}</h2>
     <ol class="post-index">
       {% for post in year.items %}
-      <li data-title="{{ post.title | downcase | escape }} {{ post.description | downcase | escape }}">
+      <li data-title="{{ post.title | downcase | escape }} {{ post.description | downcase | escape }}" data-topics="{{ post.topics | join: ' ' }}">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
       </li>
@@ -31,20 +40,32 @@ description: Every post from The Offer Letter by Brian Piotrowski, from 2019 to 
 (function () {
   var input = document.getElementById('post-filter');
   var empty = document.getElementById('filter-empty');
-  if (!input) return;
-  input.addEventListener('input', function () {
-    var q = input.value.trim().toLowerCase();
-    var shown = 0;
+  var chips = document.querySelectorAll('.chip');
+  var topic = new URLSearchParams(location.search).get('topic') || '';
+  function apply() {
+    var q = input.value.trim().toLowerCase(), shown = 0;
+    chips.forEach(function (c) { c.setAttribute('aria-pressed', c.dataset.topic === topic ? 'true' : 'false'); });
     document.querySelectorAll('[data-year]').forEach(function (sec) {
       var any = false;
       sec.querySelectorAll('li[data-title]').forEach(function (li) {
-        var hit = !q || li.getAttribute('data-title').indexOf(q) !== -1;
-        li.hidden = !hit;
-        if (hit) { any = true; shown++; }
+        var okT = !topic || (' ' + li.dataset.topics + ' ').indexOf(' ' + topic + ' ') !== -1;
+        var okQ = !q || li.dataset.title.indexOf(q) !== -1;
+        li.hidden = !(okT && okQ);
+        if (okT && okQ) { any = true; shown++; }
       });
       sec.hidden = !any;
     });
     empty.hidden = shown !== 0;
+  }
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      topic = c.dataset.topic;
+      var url = topic ? '?topic=' + topic : location.pathname;
+      history.replaceState(null, '', url);
+      apply();
+    });
   });
+  input.addEventListener('input', apply);
+  apply();
 })();
 </script>

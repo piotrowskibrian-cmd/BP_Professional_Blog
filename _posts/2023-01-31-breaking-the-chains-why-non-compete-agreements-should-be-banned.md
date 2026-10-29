@@ -5,6 +5,7 @@ permalink: "/f/breaking-the-chains-why-non-compete-agreements-should-be-banned/"
 description: "Recently, the United States government has made known its intent to great a ban on non-compete agreements. These agreements are often used to protect a company's trade secrets and confidential information, but they can a…"
 image: "/assets/images/blog/breaking-the-chains-why-non-compete-agreements-should-be-banned/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/breaking-the-chains-why-non-compete-agreements-should-be-banned"
+topics: [market]
 ---
 
 Recently, the United States government has made known its intent to great a ban on non-compete agreements. These agreements are often used to protect a company's trade secrets and confidential information, but they can also have a negative impact on workers and the economy as a whole.

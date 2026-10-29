@@ -5,6 +5,7 @@ permalink: "/f/enhancing-resumes-with-chatgpt/"
 description: "In the last couple of weeks, I've spoken a lot about generational AI. Most people don't realize that you can use ChatGPT to improve your resume. A well-crafted resume can make all the difference when it comes to catching…"
 image: "/assets/images/blog/enhancing-resumes-with-chatgpt/01.png"
 godaddy_url: "https://brianpiotrowski.com/f/enhancing-resumes-with-chatgpt"
+topics: [ai, job-search]
 ---
 
 In the last couple of weeks, I've spoken a lot about generational AI. Most people don't realize that you can use ChatGPT to improve your resume. A well-crafted resume can make all the difference when it comes to catching the attention of potential employers and securing your dream job. Luckily, with the assistance of ChatGPT, candidates can now elevate their resumes to new heights by ensuring they are effective, concise, and tailored specifically to the job they are applying for.

@@ -5,6 +5,7 @@ permalink: "/f/why-do-recruiters-ghost/"
 description: "I should start by saying this isn’t a practice that I endorse or support. It is, however, important to explain why this happens but explore why excuses are just excuses."
 image: "/assets/images/blog/why-do-recruiters-ghost/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/why-do-recruiters-ghost"
+topics: [interviewing, leadership]
 ---
 
 I should start by saying this isn’t a practice that I endorse or support. It is, however, important to explain why this happens but explore why excuses are just excuses.

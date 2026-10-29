@@ -5,6 +5,7 @@ permalink: "/f/avoid-these-common-resume-mistakes/"
 description: "Your resume is not meant to get you a job—it’s meant to land you an interview. Make sure you focus on showing your best self on your resume to capture the attention of the hiring manager and recruiter. Being in recruitin…"
 image: "/assets/images/blog/avoid-these-common-resume-mistakes/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/avoid-these-common-resume-mistakes"
+topics: [job-search]
 ---
 
 Your resume is not meant to get you a job—it’s meant to land you an interview. Make sure you focus on showing your best self on your resume to capture the attention of the hiring manager and recruiter. Being in recruiting as long as I have - these are the most common mistakes I see on resumes.

@@ -5,6 +5,7 @@ permalink: "/f/using-your-ats-data-to-improve-reporting-predictions/"
 description: "Organizations often report only the bare minimum information from recruitment data, even though there is always more data that could be reported to identify issues, solutions, and successes. This incomplete reporting oft…"
 image: "/assets/images/blog/using-your-ats-data-to-improve-reporting-predictions/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/using-your-ats-data-to-improve-reporting-predictions"
+topics: [ai, leadership]
 ---
 
 Organizations often report only the bare minimum information from recruitment data, even though there is always more data that could be reported to identify issues, solutions, and successes. This incomplete reporting often leads to a lack of full understanding about the recruitment team's performance. Your Applicant Tracking System (ATS) has a plethora of data that can help companies improve their recruitment processes and stay ahead of the competition. Here are a few ways in which companies can leverage this data:

@@ -5,6 +5,7 @@ permalink: "/f/why-did-it-take-a-law-to-ban-candidate-ghostingstarting-january/"
 description: "Starting January 1, 2026, Ontario is officially banning candidate ghosting."
 image: "/assets/images/blog/why-did-it-take-a-law-to-ban-candidate-ghostingstarting-january/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/why-did-it-take-a-law-to-ban-candidate-ghostingstarting-january"
+topics: [market, interviewing]
 ---
 
 Starting January 1, 2026, Ontario is officially banning candidate ghosting.

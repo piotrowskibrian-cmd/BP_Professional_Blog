@@ -5,6 +5,7 @@ permalink: "/f/why-improving-immigration-policies-is-critical/"
 description: "We keep hearing about our aging population and how we don't have enough people to do the work in our current economy. The shortage of workers is a critical issue that many countries are facing today. One of the most effe…"
 image: "/assets/images/blog/why-improving-immigration-policies-is-critical/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/why-improving-immigration-policies-is-critical"
+topics: [market]
 ---
 
 We keep hearing about our aging population and how we don't have enough people to do the work in our current economy. The shortage of workers is a critical issue that many countries are facing today. One of the most effective solutions to this problem is to improve immigration policies and attract more skilled workers from abroad. Why should we look abroad and open our borders? Well, it opens us up to more possible people coming into the United States (and other countries) to help fill the void. In a future post, we will look at why we don't have enough skilled workers but here is a few reasons to consider opening our immigration process.

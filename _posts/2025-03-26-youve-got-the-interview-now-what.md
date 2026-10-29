@@ -5,6 +5,7 @@ permalink: "/f/you’ve-got-the-interview-now-what/"
 description: "You’ve successfully made it to the interview phase—nice!"
 image: "/assets/images/blog/youve-got-the-interview-now-what/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/you%E2%80%99ve-got-the-interview-now-what"
+topics: [job-search, interviewing]
 ---
 
 You’ve successfully made it to the interview phase—nice!

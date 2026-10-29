@@ -5,6 +5,7 @@ permalink: "/f/deleting-bias-in-recruitment/"
 description: "With the increase of fake news in today's world, bias is everywhere. However, bias has increased to more than racial, religion, gender, or sexual orientation. We are now facing bias with what universities someone attende…"
 image: "/assets/images/blog/deleting-bias-in-recruitment/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/deleting-bias-in-recruitment"
+topics: [interviewing, leadership]
 ---
 
 With the increase of fake news in today's world, bias is everywhere. However, bias has increased to more than racial, religion, gender, or sexual orientation. We are now facing bias with what universities someone attended, where they work if they job-hopped, foreign work experience, and the list can go on.

@@ -5,6 +5,7 @@ permalink: "/f/changes-to-recruitment-under-a-trump-presidency/"
 description: "President Trump has secured a second term in office. Given his campaign promises and the policies of his first term, we can expect some significant changes on the horizon. Here are my top five changes to watch for in his…"
 image: "/assets/images/blog/changes-to-recruitment-under-a-trump-presidency/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/changes-to-recruitment-under-a-trump-presidency"
+topics: [market]
 ---
 
 President Trump has secured a second term in office. Given his campaign promises and the policies of his first term, we can expect some significant changes on the horizon. Here are my top five changes to watch for in his second term:

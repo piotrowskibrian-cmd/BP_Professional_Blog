@@ -5,6 +5,7 @@ permalink: "/f/in-2025-5-tips-for-job-search/"
 description: "Job searching in 2025 is tough! Even though unemployment rates are low, hiring still is slow. We see it all over social media—finding a new position often feels like a full-time job in itself. If you’re feeling stuck and…"
 image: "/assets/images/blog/in-2025-5-tips-for-job-search/01.jpg"
 godaddy_url: "https://brianpiotrowski.com/f/in-2025-5-tips-for-job-search"
+topics: [job-search]
 ---
 
 Job searching in 2025 is tough! Even though unemployment rates are low, hiring still is slow. We see it all over social media—finding a new position often feels like a full-time job in itself. If you’re feeling stuck and like you can’t get ahead, here are a few tips that might help.
