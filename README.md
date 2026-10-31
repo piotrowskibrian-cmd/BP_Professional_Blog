@@ -22,6 +22,26 @@ Hosted free on GitHub Pages.
 To add an image, upload it to `assets/images/blog/` and reference it with
 `![description](/assets/images/blog/your-image.jpg)`.
 
+## Scheduling a post
+
+Give the post a future date and time in its file name and front matter:
+
+```
+_posts/2026-11-04-hiring-in-2027.md
+---
+title: "Hiring in 2027"
+date: 2026-11-04 10:00:00 -0600
+---
+```
+
+Use `-0600` from November to mid-March (standard time) and `-0500` from
+mid-March to early November (daylight time). The site rebuilds every
+Wednesday just after 10am Central, and the post goes live then. Posts
+dated on other days go live at the next morning's daily build.
+
+Note: the repository is public, so a scheduled post can be read on GitHub
+before it goes live on the site.
+
 ## Podcast
 
 Nothing to do. Publish in Riverside as usual; the site reads the Riverside feed

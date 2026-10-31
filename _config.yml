@@ -35,6 +35,7 @@ podcast:
 # You shouldn't need to change anything below this line.
 # ---------------------------------------------------------------
 timezone: America/Chicago
+future: false   # posts dated in the future wait until a build after that time
 lang: en_US
 markdown: kramdown
 kramdown:

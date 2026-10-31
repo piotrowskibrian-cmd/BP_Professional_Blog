@@ -7,7 +7,12 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 11 * * *"   # daily, ~6am Central
+    - cron: "17 11 * * *"   # daily, ~6am Central (new podcast episodes)
+    # Wednesday 10am Central publishing for scheduled posts. GitHub only
+    # uses UTC, so one of these lands at ~10:05 in daylight time and the
+    # other at ~10:05 in standard time.
+    - cron: "5 15 * * 3"
+    - cron: "5 16 * * 3"
   workflow_dispatch:
   workflow_run:
     workflows: ["Import blog from GoDaddy"]
