@@ -1,9 +1,12 @@
 {%- assign p = site.podcast -%}
-<ul class="listen" aria-label="Listen on">
-  {% if p.apple and p.apple != "" %}<li><a href="{{ p.apple }}">Apple Podcasts</a></li>{% endif %}
-  {% if p.spotify and p.spotify != "" %}<li><a href="{{ p.spotify }}">Spotify</a></li>{% endif %}
-  {% if p.youtube and p.youtube != "" %}<li><a href="{{ p.youtube }}">YouTube</a></li>{% endif %}
-  {% if p.amazon and p.amazon != "" %}<li><a href="{{ p.amazon }}">Amazon Music</a></li>{% endif %}
-  {% if p.iheart and p.iheart != "" %}<li><a href="{{ p.iheart }}">iHeartRadio</a></li>{% endif %}
-  {% if p.deezer and p.deezer != "" %}<li><a href="{{ p.deezer }}">Deezer</a></li>{% endif %}
-</ul>
+<div class="listen-wrap">
+  <span class="listen-label" id="listen-label-{{ include.id | default: 'main' }}">Listen on</span>
+  <ul class="listen" aria-labelledby="listen-label-{{ include.id | default: 'main' }}">
+    {% if p.apple and p.apple != "" %}<li><a href="{{ p.apple }}" target="_blank" rel="noopener">Apple Podcasts</a></li>{% endif %}
+    {% if p.spotify and p.spotify != "" %}<li><a href="{{ p.spotify }}" target="_blank" rel="noopener">Spotify</a></li>{% endif %}
+    {% if p.youtube and p.youtube != "" %}<li><a href="{{ p.youtube }}" target="_blank" rel="noopener">YouTube</a></li>{% endif %}
+    {% if p.amazon and p.amazon != "" %}<li><a href="{{ p.amazon }}" target="_blank" rel="noopener">Amazon Music</a></li>{% endif %}
+    {% if p.iheart and p.iheart != "" %}<li><a href="{{ p.iheart }}" target="_blank" rel="noopener">iHeartRadio</a></li>{% endif %}
+    {% if p.deezer and p.deezer != "" %}<li><a href="{{ p.deezer }}" target="_blank" rel="noopener">Deezer</a></li>{% endif %}
+  </ul>
+</div>
