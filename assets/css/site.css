@@ -396,10 +396,18 @@ body.home .signup { margin-top: 64px; }
 }
 @media (prefers-reduced-motion: reduce) { .post-card-img img { transition: none; } }
 
+/* ---------- Contact card (About) ---------- */
+.contact-card { clear: both; margin: 40px 0 28px; padding: 28px 30px 32px; background: var(--desk); border-radius: 6px; }
+.contact-card h2 { font-family: var(--serif); font-weight: 500; font-size: 2rem; line-height: 1.1; margin: 0 0 8px; }
+.contact-card p { margin: 0 0 20px; }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 16px; margin: 0 !important; }
+.prose .contact-actions a { text-decoration: none; }
+
 /* Full-width, equal buttons on phones */
 @media (max-width: 560px) {
   .hero-actions { flex-direction: column; align-items: stretch; gap: 16px; padding-right: 5px; }
-  .hero-actions .button { width: 100%; }
+  .hero-actions .button, .contact-actions .button { width: 100%; }
+  .contact-actions { flex-direction: column; align-items: stretch; padding-right: 5px; }
 }
 
 /* ---------- Small screens ---------- */

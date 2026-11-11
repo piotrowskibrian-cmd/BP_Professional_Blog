@@ -12,8 +12,13 @@ His career spans corporate teams and search firms, with hiring across AEC, Oil &
 
 Through *The Offer Letter*, Brian shares real-world insights and candid opinions designed to spark conversation, challenge the "we've always done it that way" mindset, and support growth for recruiters, hiring leaders, and job seekers alike. On the podcast, *Candidate Spotlight*, he gives job seekers a voice and shares the stories behind their resumes.
 
-**Get in touch:** [Email](mailto:brian@brianpiotrowski.com) or [LinkedIn](https://www.linkedin.com/in/bpiotrowski/)
-
-For speaking, podcast, or media requests, [email Brian](mailto:brian@brianpiotrowski.com?subject=Speaking%20or%20media%20request).
+<div class="contact-card">
+  <h2>Get in touch</h2>
+  <p>Want to talk recruiting, have Brian on your podcast or panel, or be a guest on Candidate Spotlight? He'd love to hear from you.</p>
+  <p class="contact-actions">
+    <a class="button" href="mailto:{{ site.email }}">Email Brian</a>
+    <a class="button" href="{{ site.linkedin }}" target="_blank" rel="noopener">Connect on LinkedIn</a>
+  </p>
+</div>
 
 *All thoughts and opinions are his own.*
