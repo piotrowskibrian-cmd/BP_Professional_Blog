@@ -8,7 +8,7 @@ body_class: desk
       {% if page.topics %}<span class="post-topics">{% for key in page.topics %}{% assign t = site.data.topics | where: "key", key | first %}{% if t %}<a href="{{ '/blog/' | relative_url }}?topic={{ t.key }}">{{ t.name }}</a>{% endif %}{% endfor %}</span>{% endif %}
     </p>
     <h1 class="letter-title">{{ page.title }}</h1>
-    <p class="letter-meta">{{ content | number_of_words | divided_by: 220 | plus: 1 }} min read</p>
+    <p class="letter-meta">By <a class="byline" href="{{ '/about/' | relative_url }}" rel="author">Brian Piotrowski</a> · {{ content | number_of_words | divided_by: 220 | plus: 1 }} min read</p>
   </header>
   {% if page.image %}
   <figure class="letter-hero">

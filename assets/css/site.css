@@ -149,6 +149,8 @@ a:hover { color: var(--ink-deep); text-decoration-thickness: 2px; }
 .letter-title { font-size: clamp(2.1rem, 5vw, 3.2rem); line-height: 1.08; margin: 8px 0 10px; }
 .letter-meta { color: var(--muted); font-size: 14px; margin: 0 0 30px; }
 .letter-hero { margin: 0 0 32px; }
+.byline { color: var(--ink); font-weight: 600; text-decoration: none; }
+.byline:hover { text-decoration: underline; }
 .letter-hero img { width: 100%; border-radius: 2px; }
 
 .prose { max-width: 66ch; }
