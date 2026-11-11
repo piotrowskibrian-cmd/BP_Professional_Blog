@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 11 * * *"   # daily, ~6am Central (new podcast episodes)
+    - cron: "10 12 * * *"   # daily: 6:10am Central standard time / 7:10am daylight time (new podcast episodes)
     # Wednesday 10am Central publishing for scheduled posts. GitHub only
     # uses UTC, so one of these lands at ~10:05 in daylight time and the
     # other at ~10:05 in standard time.
