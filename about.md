@@ -14,4 +14,6 @@ Through *The Offer Letter*, Brian shares real-world insights and candid opinions
 
 **Get in touch:** [Email](mailto:brian@brianpiotrowski.com) or [LinkedIn](https://www.linkedin.com/in/bpiotrowski/)
 
+For speaking, podcast, or media requests, [email Brian](mailto:brian@brianpiotrowski.com?subject=Speaking%20or%20media%20request).
+
 *All thoughts and opinions are his own.*

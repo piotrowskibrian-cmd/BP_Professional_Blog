@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   <link rel="icon" href="{{ '/assets/images/icon.png' | relative_url }}">
   {% feed_meta %}
+  {% if page.unlisted %}<meta name="robots" content="noindex, nofollow">{% endif %}
   {% seo %}
 </head>
 <body class="{{ page.body_class }}">
