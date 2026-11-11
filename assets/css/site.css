@@ -87,8 +87,6 @@ a:hover { color: var(--ink-deep); text-decoration-thickness: 2px; }
   transform: translate(2px, 2px); box-shadow: calc(var(--lift) - 2px) calc(var(--lift) - 2px) 0 var(--block);
 }
 .button:active, .signup button:active, .copy-btn:active { transform: translate(var(--lift), var(--lift)); box-shadow: 0 0 0 var(--block); }
-.button-quiet { box-shadow: none; }
-.button-quiet:hover, .button-quiet:active { transform: none; box-shadow: none; background: var(--wash); }
 .copy-btn { --lift: 3px; }
 @media (prefers-reduced-motion: reduce) { .button, .signup button, .copy-btn, .listen a { transition: none; } }
 
