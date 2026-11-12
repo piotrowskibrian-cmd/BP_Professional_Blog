@@ -24,6 +24,8 @@ If your hiring process was slow and clunky in 2019, an AI layer won’t fix it. 
 
 Then there’s the candidate side. For its [2025 AI in Hiring report](https://www.greenhouse.com/newsroom/an-ai-trust-crisis-70-of-hiring-managers-trust-ai-to-make-faster-and-better-hiring-decisions-only-8-of-job-seekers-call-it-fair), Greenhouse surveyed about 2,900 job seekers across the US, UK, Ireland and Germany. Only 8% said AI makes hiring fairer. From my own experience, most candidates assume every company is using AI, and they feel like they’re trying to get past a system instead of reaching a person.
 
+That’s where transparency comes in. Tell candidates where AI is part of your process and where a person makes the call. Keep a human in the loop on the decisions that matter, like who moves forward, who gets rejected and who gets an offer. AI can help us move faster and spot what we’d miss, but a person should own the outcome. Candidates don’t expect a process without AI. They expect honesty about how it’s used and a real person on the other side.
+
 I’m not anti-AI. Far from it. I embrace it and use it every day. It’s troubleshot problems for me, helped me spot patterns in data and helped me rebuild this site.
 
 Right now I’m looking at a process that needs modernizing, and I’m weighing every option. Here’s what I’m asking:
@@ -32,6 +34,7 @@ Right now I’m looking at a process that needs modernizing, and I’m weighing 
 - **Does it improve the candidate experience?** Take AI interviewing. In my industry, I don’t think candidates want to talk to a bot.
 - **What’s the net benefit of cleaning up the process first?**
 - **Is this vendor the best fit** on cost, integration and functionality?
+- **Where does a person stay in the loop,** and how will we tell candidates AI is part of the process?
 - **Are Legal and InfoSec on board?**
 
 The goal isn’t to use AI. It’s to hire better.
