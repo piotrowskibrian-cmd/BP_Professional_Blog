@@ -2,6 +2,7 @@
 title: "Everyone Wants Us Using AI. Is It Actually Helping?"
 date: 2026-11-17 06:00:00 -0600
 description: "If you work in corporate America right now, you’ve heard some version of this: “We need to be using AI.” But is it actually working for us?"
+image: "/assets/images/blog/everyone-wants-us-using-ai-is-it-actually-helping/01.jpg"
 topics: [ai, leadership]
 ---
 
