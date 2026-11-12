@@ -26,6 +26,8 @@ Then there’s the candidate side. For its [2025 AI in Hiring report](https://ww
 
 That’s where transparency comes in. Tell candidates where AI is part of your process and where a person makes the call. Keep a human in the loop on the decisions that matter, like who moves forward, who gets rejected and who gets an offer. AI can help us move faster and spot what we’d miss, but a person should own the outcome. Candidates don’t expect a process without AI. They expect honesty about how it’s used and a real person on the other side.
 
+And transparency is quickly becoming the law, not just good practice. New York City already requires bias audits and candidate notice for automated hiring tools. [Illinois now requires employers](https://www.hinshawlaw.com/print/v2/content/40555/illinois-adopts-new-ai-in-employment-regulations-what-employers-need-to-know-for-2026.pdf) to tell applicants when AI is used in hiring decisions, on top of its rules for AI video interviews. [Colorado’s new AI law](https://www.rockymountainemployersblog.com/blog/2026/6/4/colorado-rewrites-its-primary-ai-law-what-employers-need-to-know-before-2027), set to take effect in January 2027, goes further: notice up front, an explanation when AI plays a role in a rejection and a way to request human review. Enforcement is on hold for now while it’s challenged in federal court, but the direction is clear. Other states will follow.
+
 I’m not anti-AI. Far from it. I embrace it and use it every day. It’s troubleshot problems for me, helped me spot patterns in data and helped me rebuild this site.
 
 Right now I’m looking at a process that needs modernizing, and I’m weighing every option. Here’s what I’m asking:
