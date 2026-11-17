@@ -35,9 +35,10 @@ date: 2026-11-04 10:00:00 -0600
 ```
 
 Use `-0600` from November to mid-March (standard time) and `-0500` from
-mid-March to early November (daylight time). The site rebuilds every
-Wednesday just after 10am Central, and the post goes live then. Posts
-dated on other days go live at the next morning's daily build.
+mid-March to early November (daylight time). The site rebuilds every hour,
+so the post goes live at the first rebuild after its time (usually within
+an hour; GitHub sometimes runs late on busy days). To publish immediately,
+go to Actions > Build and publish site > Run workflow.
 
 Note: the repository is public, so a scheduled post can be read on GitHub
 before it goes live on the site.
@@ -45,7 +46,7 @@ before it goes live on the site.
 ## Podcast
 
 Nothing to do. Publish in Riverside as usual; the site reads the Riverside feed
-every day and on every change, and adds new episodes automatically.
+every hour and on every change, and adds new episodes automatically.
 
 ## Settings
 
