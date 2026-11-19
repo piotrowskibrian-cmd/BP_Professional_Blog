@@ -48,7 +48,7 @@ body_class: home
     <p><strong>15+</strong><span>years in talent acquisition</span></p>
     <p><strong>10+</strong><span>years leading TA teams</span></p>
     <p><strong>{{ site.posts.size }}</strong><span>posts since 2019</span></p>
-    <p><strong>{{ show.episodes.size | default: 25 }}</strong><span>Candidate Spotlight episodes</span></p>
+    <p><strong>{{ show.interviews | default: show.episodes.size }}</strong><span>Candidate Spotlight episodes</span></p>
   </div>
 </section>
 

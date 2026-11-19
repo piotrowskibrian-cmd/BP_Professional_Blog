@@ -41,7 +41,7 @@ description: The Offer Letter – Candidate Spotlight, hosted by Brian Piotrowsk
 {% endif %}
 
 <section class="wrap episodes" aria-labelledby="all-eps">
-  <h2 class="section-title" id="all-eps">All {{ show.episodes.size }} episodes</h2>
+  <h2 class="section-title" id="all-eps">All {{ show.interviews | default: show.episodes.size }} episodes</h2>
   <div class="ep-grid">
     {% for ep in show.episodes offset:1 %}
       {% include episode-row.html %}

@@ -86,6 +86,40 @@ def slugify(s):
     return s[:80].rstrip("-")
 
 
+SUFFIX = re.compile(r"[\s.\-\u2013\u2014|]*Candidate Spotlight(?:\s+Episode)?\s*#\s*\d+\s*$", re.I)
+NAME = r"[A-Z][\w.\-]+(?: [A-Z][\w.\-]+){1,2}"
+
+
+def parse_title(title, episode_type="", feed_number=""):
+    """Work out episode number, trailer flag, clean topic and guest from a title.
+
+    Handles both title styles used on the show:
+      "Topic | Guest | CS #24"
+      "Topic: Guest's Journey - Candidate Spotlight #6" (older episodes)
+    Brian's own numbering in the title wins over the feed's episode number,
+    which doesn't match his. The intro/trailer gets no number.
+    """
+    t = title.strip()
+    trailer = episode_type.strip().lower() == "trailer" or bool(re.match(r"(?i)intro\b", t))
+    nums = re.findall(r"#\s*(\d+)", t)
+    num = "" if trailer else (nums[-1] if nums else feed_number.strip())
+    if "|" in t:
+        parts = [p.strip() for p in t.split("|")]
+        topic = parts[0]
+        guest = parts[1] if len(parts) > 2 else ""
+        return num, trailer, topic, guest
+    topic = SUFFIX.sub("", t).strip(" -\u2013")
+    guest = ""
+    for pat in (r"\bwith (" + NAME + r")\b",
+                r"(" + NAME + r")[\u2019']s Journey",
+                r":\s*(" + NAME + r")$"):
+        m = re.search(pat, topic)
+        if m:
+            guest = m.group(1)
+            break
+    return num, trailer, topic, guest
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file")
@@ -117,14 +151,8 @@ def main():
             continue
         desc = clean_html(text(it, CONTENT + "encoded") or text(it, "description"))
         eimg = it.find(IT + "image")
-        num = text(it, IT + "episode")
-        m = re.search(r"CS\s*#\s*(\d+)", title)
-        if not num and m:
-            num = m.group(1)
-        # "Topic | Guest | CS #24" -> topic + guest
-        parts = [p.strip() for p in title.split("|")]
-        topic = parts[0]
-        guest = parts[1] if len(parts) > 2 else ""
+        num, trailer, topic, guest = parse_title(title, text(it, IT + "episodeType"),
+                                                 text(it, IT + "episode"))
         slug = slugify(f"{num + '-' if num else ''}{guest or topic}") or "episode"
         while slug in used:
             slug += "-2"
@@ -134,6 +162,7 @@ def main():
             "topic": topic,
             "guest": guest,
             "number": num,
+            "trailer": trailer,
             "date": dt.strftime("%Y-%m-%d"),
             "audio": audio,
             "duration": duration(text(it, IT + "duration")),
@@ -143,7 +172,7 @@ def main():
             "url": f"/podcast/{slug}/",
         }
         show["episodes"].append(ep)
-        front = {k: ep[k] for k in ("title", "topic", "guest", "number", "date",
+        front = {k: ep[k] for k in ("title", "topic", "guest", "number", "trailer", "date",
                                     "audio", "duration", "image", "summary")}
         front["description"] = ep["summary"]
         with open(os.path.join(out_dir, slug + ".md"), "w", encoding="utf-8") as f:
@@ -152,6 +181,7 @@ def main():
                 f.write(f"{k}: {json.dumps(v, ensure_ascii=False)}\n")
             f.write("---\n\n" + desc + "\n")
     show["episodes"].sort(key=lambda e: e["date"], reverse=True)
+    show["interviews"] = sum(1 for e in show["episodes"] if not e["trailer"])
     os.makedirs(os.path.join(ROOT, "_data"), exist_ok=True)
     with open(os.path.join(ROOT, "_data", "podcast.json"), "w", encoding="utf-8") as f:
         json.dump(show, f, ensure_ascii=False, indent=1)

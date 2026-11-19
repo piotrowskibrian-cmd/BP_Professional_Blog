@@ -1,6 +1,6 @@
 {%- comment -%} Episode card. expects: ep (from site.data.podcast.episodes) {%- endcomment -%}
 <article class="ep-card">
-  <p class="ep-num" aria-hidden="true">{{ ep.number | default: "·" }}</p>
+  {% if ep.trailer %}<p class="ep-num ep-num-intro" aria-hidden="true">Intro</p>{% else %}<p class="ep-num" aria-hidden="true">{{ ep.number | default: "·" }}</p>{% endif %}
   <div class="ep-body">
     {% if ep.guest != "" %}<p class="ep-guest">{{ ep.guest }}</p>{% endif %}
     <h3 class="ep-topic"><a href="{{ ep.url | relative_url }}">{{ ep.topic }}</a></h3>
